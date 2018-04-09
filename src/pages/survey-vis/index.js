@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import * as d3 from 'd3'
+import throttle from '../../utils/throttle';
 import radarChart from './radar-chart'
 
 
@@ -27,13 +28,25 @@ const config = {
 class SurveyVis extends Component {
   componentDidMount() {
     this.drawChart()
+
+    window.addEventListener('resize', this.handleResize)
   }
 
   shouldComponentUpdate() {
     return false
   }
 
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.handleResize)
+  }
+
   chart = () => {}
+
+  handleResize = throttle(() => {
+    this.chart
+      .width(this.chartRef.clientWidth)
+      .height(this.chartRef.clientHeight)
+  })
 
   drawChart() {
     config.colours.get = name => {
