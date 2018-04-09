@@ -28,13 +28,13 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
     .domain([0, scope.maxValue]);
 
 
+  let svg;
   let update;
 
 
   function chart(selection) {
-    console.log(selection, scope.data); // eslint-disable-line no-console, max-len
 
-    const svg = selection.append('svg')
+    svg = selection.append('svg')
       .attr('height', scope.height)
       .attr('width', scope.width);
 
@@ -56,6 +56,8 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
     const axisGrid = g.append('g')
       .attr('class', 'axisGrid');
 
+    axisGrid.call(renderConcentricRings, scope);
+
     const contentWrapper = g.append('g')
       .attr('class', 'contentWrapper');
 
@@ -69,14 +71,8 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
 
 
     update = function () { // eslint-disable-line func-names
-      console.log('update', scope); // eslint-disable-line no-console, max-len
-      axisGrid.call(renderConcentricRings, scope);
-
       contentWrapper.call(renderBlob, scope, tooltip);
       tooltipWrapper.call(renderTooltip, scope, tooltip);
-
-      // svg.call(renderColourTiles, config);
-      // svg.call(debugData, config, scope.t);
     };
 
     update();
@@ -94,6 +90,7 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
     if (!arguments.length) return scope.width;
     scope.width = value;
     // this is a noop until a selection is passed...
+    if (typeof svg !== 'undefined') svg.attr('width', value);
     if (typeof update === 'function') update();
     return chart;
   };
@@ -124,73 +121,84 @@ function renderConcentricRings(parent, scope) {
 
 
 function renderBlob(parent, scope) {
-  const radarWrapper = parent.selectAll('.radarWrapper')
-    // the identity function doesn't actually make a difference here
-    // why do I need to wrap the data in an array here?
-    .data([scope.data])
-    .enter().append('g')
-    .attr('class', 'radarWrapper');
-
   // spoke
-  radarWrapper.selectAll('.radarSpoke')
-    .data(d => d)
-    .enter().append('line')
+  let radarSpoke = parent.selectAll('.radarSpoke')
+    .data(scope.data)
+
+  radarSpoke.enter().append('line')
     .attr('class', 'radarSpoke')
     .attr('x1', 0)
     .attr('y1', 0)
+    .style('fill-opacity', 0)
+
+  radarSpoke
     .call(setPointCoords, scope, ['x2', 'y2'])
     .style('stroke', (d, i) => scope.config.colorScale(i))
-    .style('fill-opacity', 0);
 
-  // The radial line function
-  const radarLine = d3.svg.line.radial()
-    // .interpolate('linear-closed')
-    .interpolate('cardinal-closed')
-    .radius(d => scope.rScale(d.value))
-    .angle((d, i) => i * scope.angleSlice());
+  const displayOutline = false
+  if (displayOutline) {
+    // The radial line function
+    const radarLine = d3.svg.line.radial()
+      // .interpolate('linear-closed')
+      .interpolate('cardinal-closed')
+      .radius(d => scope.rScale(d.value))
+      .angle((d, i) => i * scope.angleSlice())
 
-  if (false) { // eslint-disable-line no-constant-condition
     // Append the backgrounds
-    radarWrapper
-      .append('path')
+    let radarArea = parent.selectAll('.radarArea')
+      .data([scope.data])
+
+    radarArea.enter().append('path')
       .attr('class', 'radarArea')
-      .attr('d', d => radarLine(d))
-      .style('fill', (d, i) => scope.config.colorScale(i))
       .style('fill-opacity', 0.4);
 
-    // Create the outlines
-    radarWrapper.append('path')
-      .attr('class', 'radarStroke')
+    radarArea
       .attr('d', d => radarLine(d))
+      .style('fill', (d, i) => scope.config.colorScale(i))
+
+    // Create the outlines
+    let radarStroke = parent.selectAll('.radarStroke')
+      .data([scope.data])
+
+    radarStroke.enter().append('path')
+      .attr('class', 'radarStroke')
       .style('stroke-width', `${scope.config.strokeWidth}px`)
-      .style('stroke', (d, i) => scope.config.colorScale(i))
       .style('fill-opacity', 0);
       // .style('filter', 'url(#glow)');
+
+    radarStroke
+      .attr('d', d => radarLine(d))
+      .style('stroke', (d, i) => scope.config.colorScale(i))
     }
 
-  // radarCircle
-  radarWrapper.selectAll('.radarCircle')
-    .data(d => d)
-    .enter().append('circle')
+  let radarCircle = parent.selectAll('.radarCircle')
+    .data(scope.data)
+
+  radarCircle.enter().append('circle')
     .attr('class', 'radarCircle')
     .attr('r', 10)
+    .style('fill-opacity', 0.95)
+
+  radarCircle
     .call(setPointCoords, scope)
     .style('fill', (d, i) => scope.config.colorScale(i))
-    .style('fill-opacity', 0.95);
 
-  return radarWrapper;
+  return parent;
 }
 
 
 function renderTooltip(parent, scope, tooltip) {
   const tooltipRadius = 20;
 
-  parent.selectAll('.radarCircleTooltips')
+  let circles = parent.selectAll('.radarCircleTooltips')
     .data(scope.data)
-    .enter().append('circle')
+
+  circles.enter().append('circle')
     .attr('class', 'radarCircleTooltips')
     .style('fill-opacity', 0)
     .attr('r', tooltipRadius)
+
+  circles
     .call(setPointCoords, scope)
     .on('mouseover', function handleMouseover(d) {
       const $this = d3.select(this);
@@ -206,8 +214,8 @@ function renderTooltip(parent, scope, tooltip) {
       tooltip
         .transition().duration(200)
           .style('opacity', 0)
-        .transition().delay(200)
-          .text('');
+        .transition()
+          .text('')
     });
 }
 

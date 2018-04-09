@@ -76,7 +76,7 @@ class SurveyVis extends Component {
   handleClick = () => {
     const data = initialData.map(i => ({
       axis: i.axis,
-      value: Math.floor(Math.random() * 10),
+      value: Math.floor(Math.random() * 9 + 1),
     }))
 
     this.chart.data(data)
