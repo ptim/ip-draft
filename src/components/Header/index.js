@@ -1,10 +1,19 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+
+const colours = {
+  orange: '#f47721',
+  blue: '#008fb4',
+  green: '#82c341',
+  smoke: '#414142',
+  lightSmoke: '#cccccc',
+}
+
 const Header = () => (
   <div
     style={{
-      background: 'rebeccapurple',
+      background: colours.blue,
       marginBottom: '1.45rem',
     }}
   >
@@ -23,7 +32,7 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Interplay Project
         </Link>
       </h1>
     </div>
