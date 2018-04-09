@@ -69,6 +69,7 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
 
 
     update = function () { // eslint-disable-line func-names
+      console.log('update', scope); // eslint-disable-line no-console, max-len
       axisGrid.call(renderConcentricRings, scope);
 
       contentWrapper.call(renderBlob, scope, tooltip);
@@ -84,6 +85,22 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
   chart.data = function chartData(value) {
     if (!arguments.length) return scope.data;
     scope.data = value;
+    // this is a noop until a selection is passed...
+    if (typeof update === 'function') update();
+    return chart;
+  };
+
+  chart.width = function chartWidth(value) {
+    if (!arguments.length) return scope.width;
+    scope.width = value;
+    // this is a noop until a selection is passed...
+    if (typeof update === 'function') update();
+    return chart;
+  };
+
+  chart.height = function chartHeight(value) {
+    if (!arguments.length) return scope.height;
+    scope.height = value;
     // this is a noop until a selection is passed...
     if (typeof update === 'function') update();
     return chart;

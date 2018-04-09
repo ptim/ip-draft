@@ -12,6 +12,7 @@ const colours = {
 
 const Header = () => (
   <div
+    className="Header"
     style={{
       background: colours.blue,
       marginBottom: '1.45rem',

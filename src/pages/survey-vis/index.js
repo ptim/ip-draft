@@ -46,7 +46,10 @@ class SurveyVis extends Component {
       .interpolate(d3.interpolateHcl)
       .range([config.colours.get('blue'), config.colours.get('green')])
 
-    this.chart = radarChart(config).data(initialData)
+    this.chart = radarChart(config)
+      .data(initialData)
+      .width(this.chartRef.clientWidth)
+      .height(this.chartRef.clientHeight)
 
     d3.select('.chart')
       .call(this.chart)
@@ -66,9 +69,12 @@ class SurveyVis extends Component {
     this.chart.data(data)
   }
 
+  chartRef = null
+  setChartRef = element => this.chartRef = element
+
   render () {
     return (
-      <div>
+      <div className="SurveyVis">
         <h1 style={{color: config.colours[1].hex}}>
           Demo Survey
         </h1>
@@ -77,7 +83,7 @@ class SurveyVis extends Component {
           <button onClick={this.handleClick}>Randomize Data</button>
         </div>
 
-        <div className="chart"></div>
+        <div className="chart" ref={this.setChartRef}></div>
       </div>
     )
   }
