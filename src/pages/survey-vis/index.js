@@ -43,9 +43,10 @@ class SurveyVis extends Component {
   chart = () => {}
 
   handleResize = throttle(() => {
-    this.chart
-      .width(this.chartRef.clientWidth)
-      .height(this.chartRef.clientHeight)
+    this.chart.dimensions([
+      this.chartRef.clientWidth,
+      this.chartRef.clientHeight,
+    ])
   })
 
   drawChart() {
@@ -61,8 +62,8 @@ class SurveyVis extends Component {
 
     this.chart = radarChart(config)
       .data(initialData)
-      .width(this.chartRef.clientWidth)
       .height(this.chartRef.clientHeight)
+      .width(this.chartRef.clientWidth)
 
     d3.select('.chart')
       .call(this.chart)

@@ -30,6 +30,7 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
 
   let svg;
   let update;
+  let updateDimensions;
 
 
   function chart(selection) {
@@ -75,6 +76,12 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
       tooltipWrapper.call(renderTooltip, scope, tooltip);
     };
 
+    updateDimensions = function () {
+      svg.attr('width', scope.width);
+      svg.attr('height', scope.height);
+      update();
+    }
+
     update();
   }
 
@@ -86,20 +93,24 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
     return chart;
   };
 
+  chart.dimensions = function chartDimensions(value) {
+    if (!arguments.length) return [scope.width, scope.height];
+    scope.width = value[0];
+    scope.height = value[1];
+    // this is a noop until a selection is passed...
+    if (typeof updateDimensions === 'function') updateDimensions();
+    return chart;
+  };
+
   chart.width = function chartWidth(value) {
     if (!arguments.length) return scope.width;
     scope.width = value;
-    // this is a noop until a selection is passed...
-    if (typeof svg !== 'undefined') svg.attr('width', value);
-    if (typeof update === 'function') update();
     return chart;
   };
 
   chart.height = function chartHeight(value) {
     if (!arguments.length) return scope.height;
     scope.height = value;
-    // this is a noop until a selection is passed...
-    if (typeof update === 'function') update();
     return chart;
   };
 
