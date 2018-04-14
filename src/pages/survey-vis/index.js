@@ -24,6 +24,16 @@ const config = {
   fontSize: 96,
 }
 
+config.colours.get = name => {
+  let i = config.colours.findIndex(i => i.name === name)
+  return i > -1 ? config.colours[i].hex : '#f00'
+}
+
+config.colorScale = d3.scale.linear()
+  .domain([1, initialData.length])
+  .interpolate(d3.interpolateHcl)
+  .range([config.colours.get('blue'), config.colours.get('green')])
+
 
 class SurveyVis extends Component {
   componentDidMount() {
@@ -50,16 +60,6 @@ class SurveyVis extends Component {
   })
 
   drawChart() {
-    config.colours.get = name => {
-      let i = config.colours.findIndex(i => i.name === name)
-      return i > -1 ? config.colours[i].hex : '#f00'
-    }
-
-    config.colorScale = d3.scale.linear()
-      .domain([1, initialData.length])
-      .interpolate(d3.interpolateHcl)
-      .range([config.colours.get('blue'), config.colours.get('green')])
-
     this.chart = radarChart(config)
       .data(initialData)
       .height(this.chartRef.clientHeight)
