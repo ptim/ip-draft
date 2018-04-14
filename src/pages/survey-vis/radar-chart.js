@@ -57,8 +57,6 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
     const axisGrid = g.append('g')
       .attr('class', 'axisGrid');
 
-    axisGrid.call(renderConcentricRings, scope);
-
     const contentWrapper = g.append('g')
       .attr('class', 'contentWrapper');
 
@@ -72,6 +70,9 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
 
 
     update = function () { // eslint-disable-line func-names
+      g.attr('transform', `translate(${scope.width / 2},${scope.height / 2})`);
+      // FIXME: this is rendering dupes at a stupid rate
+      axisGrid.call(renderConcentricRings, scope);
       contentWrapper.call(renderBlob, scope, tooltip);
       tooltipWrapper.call(renderTooltip, scope, tooltip);
     };
@@ -119,15 +120,20 @@ export function radarChart(config) { // eslint-disable-line no-unused-vars
 
 
 function renderConcentricRings(parent, scope) {
-  parent.selectAll('.levels')
-    .data(d3.range(1, scope.levels + 1).reverse())
-    .enter()
+  let levels = d3.range(1, scope.levels + 1).reverse()
+
+  let gridCircle = parent.selectAll('.levels')
+    .data(levels)
+
+  gridCircle.enter()
     .append('circle')
     .attr('class', 'gridCircle')
-    .attr('r', d => scope.radius / scope.levels * d)
     .style('stroke', scope.config.colours.get('lightSmoke'))
-    .style('fill-opacity', 0);
+    .style('fill-opacity', 0)
     // .style('fill', config.colours.lightSmoke)
+
+  gridCircle
+    .attr('r', d => scope.radius / scope.levels * d)
 }
 
 

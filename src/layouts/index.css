@@ -648,4 +648,7 @@ pre tt:after {
 
 .SurveyVis .chart {
     flex: 1;
+    /* prevent the resize getting 'blocked' by overflow */
+    max-width: calc(100% - 2rem);
+    max-height: 90vh;
 }
