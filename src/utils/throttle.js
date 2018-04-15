@@ -1,12 +1,12 @@
 /*
-Based on https://developer.mozilla.org/en-US/docs/Web/Events/resize#Example
-
-window.addEventListener(
-  'resize',
-  throttle(() => {
-    console.log('Resource conscious resize callback!')
-  })
-)
+* Based on https://developer.mozilla.org/en-US/docs/Web/Events/resize#Example
+*
+*   window.addEventListener(
+*     'resize',
+*     throttle(() => {
+*       console.log('Resource conscious resize callback!')
+*     })
+*   )
 */
 
 export const throttle = function(func) {
