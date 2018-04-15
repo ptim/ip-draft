@@ -8,13 +8,16 @@ module.exports = {
 
     // gatsby-plugin-netlify must be the last plugin
     {
+      // > enable HTTP/2 server push of critical Gatsby assets through the Link headers.
       // https://www.gatsbyjs.org/packages/gatsby-plugin-netlify/
       resolve: 'gatsby-plugin-netlify',
       options: {
         headers: {
-          "/*": [
-            "Basic-Auth: interplay:drafty-parcel-subject",
-          ],
+          // > Basic-Auth is only available if you’re on a Teams Pro plan (US$45pcm) or higher.
+          // https://www.netlify.com/docs/headers-and-basic-auth/#basic-auth
+          // "/*": [
+          //   "Basic-Auth: interplay:drafty-parcel-subject",
+          // ],
         },
       },
     },

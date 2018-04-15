@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import * as d3 from 'd3'
-import throttle from '../../utils/throttle';
-import radarChart from './radar-chart'
+import throttle from '../../utils/throttle'
+import radarChart from '../../utils/radar-chart'
 
 
 const initialData = [
