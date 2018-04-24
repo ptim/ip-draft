@@ -32,3 +32,13 @@ collections:
         fields:
           - {label: 'Domain', name: 'domain', widget: 'string'}
           - {label: 'Score', name: 'score', widget: 'number'}
+
+  - name: blog
+    label: Blog
+    folder: blog
+    create: true
+    fields:
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: 'html', label: 'HTML', widget: 'markdown' }

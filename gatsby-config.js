@@ -6,6 +6,15 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cms',
 
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/blog/`,
+        name: 'markdown-pages',
+      },
+    },
+    'gatsby-transformer-remark',
+
     // gatsby-plugin-netlify must be the last plugin
     {
       // > enable HTTP/2 server push of critical Gatsby assets through the Link headers.
