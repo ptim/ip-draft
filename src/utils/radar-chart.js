@@ -152,8 +152,7 @@ function renderBlob(parent, scope) {
     .call(setPointCoords, scope, ['x2', 'y2'])
     .style('stroke', (d, i) => scope.config.colorScale(i))
 
-  const displayOutline = false
-  if (displayOutline) {
+  if (scope.config.displayOutline) {
     // The radial line function
     const radarLine = d3.svg.line.radial()
       // .interpolate('linear-closed')

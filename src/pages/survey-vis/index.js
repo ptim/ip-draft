@@ -22,6 +22,7 @@ const config = {
     {name: 'lightSmoke', hex: '#cccccc'},
   ],
   fontSize: 96,
+  displayOutline: true,
 }
 
 config.colours.get = name => {

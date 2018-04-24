@@ -625,10 +625,16 @@ pre tt:after {
 
 /* ptim */
 
-[data-reactroot] {
+#___gatsby {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+.TemplateWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .TemplateWrapper__body {
