@@ -10,13 +10,17 @@ import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 const Homepage = () => (
   <DefaultTemplateWrapper>
     <div className="Homepage">
+
       <div className="slab hero">
         <div className="container">
+          <div className="hero__content">
           <p className="alpha">Using data to change practice</p>
           <p>Wellbeing through culture, collaboration and science</p>
           <p>We help different groups work together to design and evaluate programs based on shared measures of success</p>
         </div>
       </div>
+      </div>
+
 
       <div className="slab">
         <div className="container">
