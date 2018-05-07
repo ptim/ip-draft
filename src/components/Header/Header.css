@@ -27,14 +27,16 @@
 .Header h1 span {
     text-indent: -999rem;
     opacity: 0;
+    font-size: 0.01rem;
 }
 
 .Header h1 a {
     display: inline-block;
-    width: 250px;
-    height: 72px;
+    width: 240px;
+    height: 69px;
     background: url('./interplay-logo.png') no-repeat;
     background-position: 0 bottom;
+    background-size: cover;
 }
 
 .Header h1 a:before {
