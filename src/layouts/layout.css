@@ -13,7 +13,7 @@ a:hover {
 
 .container {
     margin: 0 auto;
-    max-width: 906px;
+    max-width: calc(1024px - 2rem);
 }
 
 .slab {
@@ -45,5 +45,5 @@ a:hover {
     font-family: 'Yanone Kaffeesatz', 'Arial', sans-serif;
     font-size: 2rem;
     line-height: 1.1;
-    /*letter-spacing: 0.01em;*/
+    letter-spacing: 0.02em;
 }
