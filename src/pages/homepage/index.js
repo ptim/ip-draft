@@ -1,11 +1,15 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import './homepage.css'
-import './ip-bg.jpg'
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 import Button from '../../components/Button'
+import Figure from '../../components/Figure'
 
+import './homepage.css'
+import bg from './ip-bg.jpg'
+import pic1 from './pic-1.jpg'
+import pic2 from './pic-2.jpg'
+import pic3 from './pic-3.jpg'
 
 
 const Homepage = () => (
@@ -15,11 +19,11 @@ const Homepage = () => (
       <div className="slab hero">
         <div className="container">
           <div className="hero__content">
-          <p className="alpha">Using data to change practice</p>
-          <p>Wellbeing through culture, collaboration and science</p>
-          <p>We help different groups work together to design and evaluate programs based on shared measures of success</p>
+            <p className="alpha">Using data to change practice</p>
+            <p>Wellbeing through culture, collaboration and science</p>
+            <p>We help different groups work together to design and evaluate programs based on shared measures of success</p>
+          </div>
         </div>
-      </div>
       </div>
 
       <div className="slab">
@@ -28,6 +32,26 @@ const Homepage = () => (
         </div>
       </div>
 
+      <div className="slab images">
+        <div className="container">
+          <div className="cols cols--padded">
+            <div className="col--33">
+              <Figure src={pic1} alt="col 1" />
+              <Button to="#government">Government</Button>
+            </div>
+
+            <div className="col--33">
+              <Figure src={pic3} alt="col 3" />
+              <Button to="#philanthropic">Philanthropic</Button>
+            </div>
+
+            <div className="col--33">
+              <Figure src={pic2} alt="col 2" />
+              <Button to="#community">Community</Button>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <div className="slab">
         <div className="container">

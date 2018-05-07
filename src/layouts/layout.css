@@ -41,6 +41,16 @@ a:hover {
     .cols > .col--50--narrow {width: 100%;}
 }
 
+.cols--padded {
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+}
+.cols--padded > div {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+
 .alpha {
     font-family: 'Yanone Kaffeesatz', 'Arial', sans-serif;
     font-size: 2rem;
