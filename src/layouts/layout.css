@@ -37,13 +37,8 @@ a:hover {
     .cols > div { width: 100%; }
     .cols > .col--50--narrow {width: 50%;}
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 568px) {
     .cols > .col--50--narrow {width: 100%;}
-}
-
-.footer {
-    background-color: grey;
-    color: white;
 }
 
 .alpha {

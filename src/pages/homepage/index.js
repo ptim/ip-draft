@@ -1,15 +1,14 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Header from '../../components/Header'
 
 import './homepage.css'
 import './ip-bg.jpg'
+import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 
 
-const IndexPage = () => (
-  <div className="TemplateWrapper">
-    <Header />
 
+const Homepage = () => (
+  <DefaultTemplateWrapper>
     <div className="Homepage">
       <div className="slab hero">
         <div className="container">
@@ -82,15 +81,7 @@ const IndexPage = () => (
         </div>
       </div>
     </div>
-
-    <footer className="footer">
-      <div className="container cols">
-        <div className="col--50">Footer</div>
-        <div className="col--25 col--50--narrow">Footer</div>
-        <div className="col--25 col--50--narrow">Footer</div>
-      </div>
-    </footer>
-  </div>
+  </DefaultTemplateWrapper>
 )
 
-export default IndexPage
+export default Homepage

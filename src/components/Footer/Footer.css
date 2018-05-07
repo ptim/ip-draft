@@ -1,0 +1,18 @@
+
+.Footer {
+    background-color: grey;
+    color: white;
+}
+
+.Footer > div {
+    padding: 1rem;
+}
+
+.Footer a {
+    color: white;
+}
+
+.Footer__copyright {
+    padding: .5rem;
+    background-color: #555;
+}
