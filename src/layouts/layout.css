@@ -45,3 +45,10 @@ a:hover {
     background-color: grey;
     color: white;
 }
+
+.alpha {
+    font-family: 'Yanone Kaffeesatz', 'Arial', sans-serif;
+    font-size: 2rem;
+    line-height: 1.1;
+    /*letter-spacing: 0.01em;*/
+}
