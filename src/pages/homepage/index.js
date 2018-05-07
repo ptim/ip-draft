@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import './homepage.css'
 import './ip-bg.jpg'
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
+import Button from '../../components/Button'
 
 
 
@@ -21,6 +22,12 @@ const Homepage = () => (
       </div>
       </div>
 
+      <div className="slab">
+        <div className="container">
+          <Button to="#evaluation">Tell Us about your Evaluation Needs</Button>
+        </div>
+      </div>
+
 
       <div className="slab">
         <div className="container">
@@ -36,13 +43,7 @@ const Homepage = () => (
 
       <div className="slab">
         <div className="container">
-          The Interplay Wellbeing Framework is a scientific mapping tool…
-        </div>
-      </div>
-
-      <div className="slab">
-        <div className="container">
-          Tell Us about your Evaluation Needs
+          <h2>The Interplay Wellbeing Framework is a scientific mapping tool.</h2>
         </div>
       </div>
 
