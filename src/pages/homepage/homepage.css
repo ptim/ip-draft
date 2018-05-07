@@ -23,4 +23,7 @@
     .hero {
         background-attachment: fixed;
     }
+    .hero__content {
+        max-width: 500px;
+    }
 }

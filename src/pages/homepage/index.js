@@ -27,7 +27,7 @@ const Homepage = () => (
       </div>
 
       <div className="slab">
-        <div className="container">
+        <div className="container centered">
           <Button to="#evaluation">Tell Us about your Evaluation Needs</Button>
         </div>
       </div>
@@ -55,6 +55,12 @@ const Homepage = () => (
 
       <div className="slab">
         <div className="container">
+          <h2>The Interplay Wellbeing Framework is a scientific mapping tool.</h2>
+        </div>
+      </div>
+
+      <div className="slab">
+        <div className="container">
           <ul>
             <li>Indigenous Evaluations</li>
             <li>Monitoring and Evaluation Frameworks</li>
@@ -62,12 +68,6 @@ const Homepage = () => (
             <li>"Whole of System" Measurement and Mapping</li>
             <li>Holistic Wellbeing Assessments</li>
           </ul>
-        </div>
-      </div>
-
-      <div className="slab">
-        <div className="container">
-          <h2>The Interplay Wellbeing Framework is a scientific mapping tool.</h2>
         </div>
       </div>
 

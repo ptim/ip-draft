@@ -50,6 +50,11 @@ a:hover {
     margin-right: .5rem;
 }
 
+.centered {
+    justify-content: center;
+    display: flex;
+}
+
 
 .alpha {
     font-family: 'Yanone Kaffeesatz', 'Arial', sans-serif;
