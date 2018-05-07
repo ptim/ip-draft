@@ -13,6 +13,12 @@ const TemplateWrapper = ({ children }) => (
         { name: 'description', content: 'TODO' },
         { name: 'keywords', content: 'TODO' },
       ]}
+      link={[
+        {
+          href: 'https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz:700',
+          rel: 'stylesheet',
+        },
+      ]}
     />
     {children()}
   </Fragment>
