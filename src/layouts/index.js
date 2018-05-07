@@ -1,12 +1,12 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
 import './index.css'
+import './layout.css'
 
 const TemplateWrapper = ({ children }) => (
-  <div className="TemplateWrapper">
+  <Fragment>
     <Helmet
       title="Interplay Project"
       meta={[
@@ -14,11 +14,8 @@ const TemplateWrapper = ({ children }) => (
         { name: 'keywords', content: 'TODO' },
       ]}
     />
-    <Header />
-    <div className="TemplateWrapper__body">
-      {children()}
-    </div>
-  </div>
+    {children()}
+  </Fragment>
 )
 
 TemplateWrapper.propTypes = {

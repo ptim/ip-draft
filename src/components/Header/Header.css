@@ -1,0 +1,27 @@
+
+.Header {
+    position: fixed;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+}
+
+.Header + div {
+    margin-top: calc(44px + 2rem);
+}
+
+.Header h1 {
+    margin-bottom: 0;
+}
+
+.Header__links {
+    margin: 0;
+    text-decoration: none;
+}
+
+.Header__links li {
+    display: inline-block;
+}

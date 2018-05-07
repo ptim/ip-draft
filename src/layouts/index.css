@@ -625,6 +625,10 @@ pre tt:after {
 
 /* ptim */
 
+body {
+    font-family: 'Droid Serif', Arial, sans-serif;
+}
+
 #___gatsby {
     display: flex;
     flex-direction: column;
