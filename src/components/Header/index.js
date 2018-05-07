@@ -22,8 +22,9 @@ const Header = () => (
     </h1>
 
     <ul className="Header__links">
-      <li><Link to="/">link</Link></li>
-      <li><Link to="/">link</Link></li>
+      <li><Link to="/">Get Started</Link></li>
+      <li><Link to="/">Contact</Link></li>
+      <li><Link to="/">About</Link></li>
     </ul>
   </nav>
 )
