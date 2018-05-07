@@ -1,0 +1,12 @@
+
+.Homepage {}
+
+.hero {
+    background: url(./ip-bg.jpg) no-repeat;
+}
+
+@media screen and (min-width: 960px) {
+    .hero {
+        background-attachment: fixed;
+    }
+}
