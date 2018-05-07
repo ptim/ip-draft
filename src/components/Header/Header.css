@@ -11,18 +11,32 @@
 }
 
 .Header + div {
-    margin-top: 90px;
+    margin-top: 70px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .Header + div {
+        margin-top: 90px;
+    }
 }
 
 .Header h1 {
     position: relative;
-    top: 5px;
 
     width: 320px;
     margin-left: calc(15px + 1rem);
     margin-bottom: 0;
-    padding-left: 72px;
+    padding-left: 55px;
 }
+
+@media screen and (min-width: 700px) {
+    .Header h1 {
+        top: 5px;
+        padding-left: 72px;
+    }
+}
+
 
 .Header h1 span {
     text-indent: -999rem;
@@ -32,11 +46,18 @@
 
 .Header h1 a {
     display: inline-block;
-    width: 240px;
-    height: 69px;
+    width: 170px;
+    height: 49px;
     background: url('./interplay-logo.png') no-repeat;
     background-position: 0 bottom;
     background-size: cover;
+}
+
+@media screen and (min-width: 700px) {
+    .Header h1 a {
+        width: 240px;
+        height: 69px;
+    }
 }
 
 .Header h1 a:before {
@@ -46,11 +67,19 @@
 
     content: '';
     display: block;
-    width: 101px;
-    height: 71px;
+    width: 81px;
+    height: 57px;
     background: url('./interplay-logo.png') no-repeat;
     background-size:  cover;
     background-position: -5px 0;
+}
+
+@media screen and (min-width: 700px) {
+    .Header h1 a:before {
+        width: 101px;
+        height: 71px;
+        /*background-position: -5px 0;*/
+    }
 }
 
 .Header__links {
