@@ -28,7 +28,7 @@ const Homepage = () => (
 
       <div className="slab">
         <div className="container centered">
-          <Button to="#evaluation">Tell Us about your Evaluation Needs</Button>
+          <Button to="#evaluation">Tell us about your evaluation needs</Button>
         </div>
       </div>
 
@@ -37,12 +37,12 @@ const Homepage = () => (
           <div className="cols cols--padded">
             <div className="col--33">
               <Figure src={pic1} alt="col 1" />
-              <Button to="#government">Government</Button>
+              <Button to="#government" style='green'>Government</Button>
             </div>
 
             <div className="col--33">
               <Figure src={pic3} alt="col 3" />
-              <Button to="#philanthropic">Philanthropic</Button>
+              <Button to="#philanthropic" style='blue'>Philanthropic</Button>
             </div>
 
             <div className="col--33">
@@ -55,7 +55,7 @@ const Homepage = () => (
 
       <div className="slab">
         <div className="container">
-          <h2 className="h2">The Interplay Wellbeing Framework is a scientific mapping tool.</h2>
+          <h2 className="underline">The Interplay Wellbeing Framework is a scientific mapping tool.</h2>
         </div>
       </div>
 
