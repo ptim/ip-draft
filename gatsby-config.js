@@ -3,6 +3,7 @@ module.exports = {
     title: 'Interplay Project',
   },
   plugins: [
+    'gatsby-plugin-typography',
     'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-netlify-cms',

@@ -1,10 +1,13 @@
 import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Typography from 'typography';
+import interplayTheme from './typography.js'
 
-import './index.css'
 import './layout.scss'
 import './typography.scss'
+
+const typography = new Typography(interplayTheme)
 
 
 const TemplateWrapper = ({ children }) => (
@@ -14,12 +17,6 @@ const TemplateWrapper = ({ children }) => (
       meta={[
         { name: 'description', content: 'TODO' },
         { name: 'keywords', content: 'TODO' },
-      ]}
-      link={[
-        {
-          href: 'https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz:700',
-          rel: 'stylesheet',
-        },
       ]}
     />
     {children()}
