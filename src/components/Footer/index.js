@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import './Footer.css'
+import styles from './Footer.module.scss'
 
 
 const Footer = () => (
-  <footer className="Footer">
+  <footer className={styles.Footer}>
     <div className="container">
       <div className="cols cols--padded">
         <div className="col--50">
@@ -23,7 +23,7 @@ const Footer = () => (
         </div>
 
         <div className="col--25 col--50--narrow">
-          <div className="social-icons">
+          <div className={styles.socialIcons}>
             <a href="#">FB</a>{' '}
             <a href="#">TW</a>{' '}
             <a href="#">LI</a>{' '}
@@ -32,7 +32,7 @@ const Footer = () => (
       </div>
     </div>
 
-    <div className="Footer__copyright">
+    <div className={styles.Footer__copyright}>
       <div className="container">
         Copyright © 2018
       </div>

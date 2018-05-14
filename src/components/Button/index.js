@@ -1,11 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import './Button.css'
+import styles from './Button.module.scss'
 
 
 const Button = ({to, children}) => (
-  <Link to={to} className="Button">
+  <Link to={to} className={styles.Button}>
     {children}
   </Link>
 )

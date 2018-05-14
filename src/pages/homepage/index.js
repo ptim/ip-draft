@@ -5,7 +5,7 @@ import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 import Button from '../../components/Button'
 import Figure from '../../components/Figure'
 
-import './homepage.css'
+import styles from './Homepage.module.scss'
 import bg from './ip-bg.jpg'
 import pic1 from './pic-1.jpg'
 import pic2 from './pic-2.jpg'
@@ -16,7 +16,7 @@ const Homepage = () => (
   <DefaultTemplateWrapper>
     <div className="Homepage">
 
-      <div className="slab hero">
+      <div className={`slab ${styles.hero}`}>
         <div className="container">
           <div className="hero__content">
             <p className="alpha">Using data to change practice</p>
@@ -55,7 +55,7 @@ const Homepage = () => (
 
       <div className="slab">
         <div className="container">
-          <h2>The Interplay Wellbeing Framework is a scientific mapping tool.</h2>
+          <h2 className="h2">The Interplay Wellbeing Framework is a scientific mapping tool.</h2>
         </div>
       </div>
 
