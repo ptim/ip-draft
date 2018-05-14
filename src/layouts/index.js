@@ -3,7 +3,9 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
 import './index.css'
-import './layout.css'
+import './layout.scss'
+import './typography.scss'
+
 
 const TemplateWrapper = ({ children }) => (
   <Fragment>

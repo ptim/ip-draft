@@ -3,6 +3,8 @@ import * as d3 from 'd3'
 import throttle from '../../utils/throttle'
 import radarChart from '../../utils/radar-chart'
 
+import styles from './SurveyVis.module.scss'
+
 
 const initialData = [
   { axis: 'culture',     value: 9 },
@@ -89,16 +91,16 @@ class SurveyVis extends Component {
 
   render () {
     return (
-      <div className="SurveyVis">
+      <div className={styles.SurveyVis}>
         <h1 style={{color: config.colours[1].hex}}>
           Demo Survey
         </h1>
 
-        <div className="controls">
+        <div className={styles.controls}>
           <button onClick={this.handleClick}>Randomize Data</button>
         </div>
 
-        <div className="chart" ref={this.setChartRef}></div>
+        <div className={styles.chart} ref={this.setChartRef}></div>
       </div>
     )
   }
