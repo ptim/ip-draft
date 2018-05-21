@@ -1,10 +1,24 @@
 import React from 'react'
 
+import DefaultTemplateWrapper from '../layouts/DefaultTemplateWrapper'
+
+
 const NotFoundPage = () => (
-  <div>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </div>
+  <DefaultTemplateWrapper>
+    <div className="NotFoundPage">
+      <div className="slab">
+        <div className="container">
+          <h1 className="underline">Page Not Found!</h1>
+
+          <p>
+            Sorry we can't find what you're looking for!
+          </p>
+
+        </div>
+      </div>
+
+    </div>
+  </DefaultTemplateWrapper>
 )
 
 export default NotFoundPage
