@@ -40,35 +40,29 @@ const Homepage = () => (
             <div className="col--33">
               <h3>Culture</h3>
 
-              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/Rso0RqiX_-U?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/Rso0RqiX_-U?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
-              <p>This short documentary reveals the complexity of Aboriginal culture in remote Australia. It also suggests that connecting with culture - through being on country, speaking in language, and practising culture in the everyday - improves the wellbeing of Aboriginal people. living in remote Australia.</p>
+              <p>This short documentary reveals the complexity of Aboriginal culture in remote Australia. It also suggests that connecting with culture - through being on country, speaking in language, and practising culture in the everyday - improves the wellbeing of Aboriginal people living in remote Australia.</p>
             </div>
 
             <div className="col--33">
               <h3>Education and Learning</h3>
 
-              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/eY64yYhlSLw?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/eY64yYhlSLw?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
-              <p>This video presents a range of perspectives on what can improve education outcomes for Aboriginal children. living in remote Australia.</p>
+              <p>This video presents a range of perspectives on what can improve education outcomes for Aboriginal children living in remote Australia.</p>
             </div>
 
             <div className="col--33">
               <h3>Work</h3>
 
-              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/79WB1ew-SXU?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/79WB1ew-SXU?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
               <p>What does meaningful work in remote Australia look like? Watch the responses here.</p>
+
+              <p><Button to="/videos">See 30+ more videos</Button></p>
             </div>
           </div>
-
-          <h3>Want to see more?</h3>
-
-          <p>Over 30 short documentary videos from the Interplay Project are available here, and embedded in the Interplay Wellbeing Framework here.  </p>
-
-          <p>These are freely available for use in any education or other applications that promotes the wellbeing meaning behind the messages. </p>
-
-          <p>Please feel free to give us feedback on how you are using these resources. </p>
         </div>
       </div>
 
