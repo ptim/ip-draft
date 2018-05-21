@@ -32,6 +32,11 @@
     flex: 1;
 }
 
+
+// ============================================================
+// tags
+// ============================================================
+
 iframe {
     max-width: 100%;
 }
@@ -48,18 +53,33 @@ a:hover {
     text-decoration: underline;
 }
 
+
+// ============================================================
+// slabs
+// ============================================================
+
+
+.slab {
+    padding: 2rem 1rem;
+}
+
+.slabs--alternating .slab:nth-of-type(even) {
+    background-color: $green--light;
+}
+
+.slab--orange {background-color: $orange;}
+.slab--blue {background-color: $blue;}
+.slab--green {background-color: $green;}
+
 .container {
     margin: 0 auto;
     max-width: calc(1024px - 2rem);
 }
 
-.slab {
-    padding: 1rem;
-}
 
-.slab:nth-of-type(even) {
-    background-color: rgba(0, 0, 0, 0.1);
-}
+// ============================================================
+// columns
+// ============================================================
 
 .cols {display: flex; flex-wrap: wrap;}
 .col--25 {width: 25%;}

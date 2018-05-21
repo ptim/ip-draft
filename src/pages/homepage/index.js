@@ -26,7 +26,7 @@ const Homepage = () => (
         </div>
       </div>
 
-      <div className="alternating">
+      <div className="slabs--alternating">
         <div className="slab">
           <div className="container">
             <h2 className="underline">The Interplay Wellbeing Framework is a scientific mapping tool.</h2>

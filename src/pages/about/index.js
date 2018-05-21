@@ -10,10 +10,14 @@ const About = () => (
   <DefaultTemplateWrapper>
     <div className="About">
 
-      <div className="slab">
+      <div className="slab slab--green">
         <div className="container">
           <h1 className="underline">The Story behind The Interplay Project</h1>
+        </div>
+      </div>
 
+      <div className="slab">
+        <div className="container">
           <p>
             The Interplay Project started as a national research project on wellbeing in remote Aboriginal and Torres Strait Islander communities conducted from 2011 to 2017. Wellbeing has been difficult to understand, measure and strengthen in remote Aboriginal and Torres Strait Islander communities, and part of the challenge has been genuinely engaging community members and incorporating their values and priorities into policy approaches.
           </p>
