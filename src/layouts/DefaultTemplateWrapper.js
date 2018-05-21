@@ -9,7 +9,9 @@ const DefaultTemplateWrapper = ({ children }) => (
   <div className="DefaultTemplateWrapper">
     <Header />
 
-    {children}
+    <div className="stickyBody">
+      {children}
+    </div>
 
     <Footer />
   </div>

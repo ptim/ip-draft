@@ -21,6 +21,17 @@
     padding: 0 1rem;
 }
 
+.DefaultTemplateWrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.stickyBody {
+    // pushes the footer down, making it sticky
+    flex: 1;
+}
+
 iframe {
     max-width: 100%;
 }
