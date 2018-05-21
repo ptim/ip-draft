@@ -19,6 +19,7 @@ const Footer = () => (
         </div>
 
         <div className="col--25 col--50--narrow">
+          <Link to='/about'>About Us</Link>
           <Link to='#privacy'>Privacy</Link>
         </div>
 
