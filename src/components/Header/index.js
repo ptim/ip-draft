@@ -14,8 +14,8 @@ const Header = () => (
     </h1>
 
     <ul className="Header__links">
-      <li><Link to="/">Get Started</Link></li>
-      <li><Link to="/">Contact</Link></li>
+      <li><Link to="/client-needs-survey">Get Started</Link></li>
+      <li><Link to="/contact">Contact</Link></li>
       <li><Link to="/about">About</Link></li>
     </ul>
   </nav>

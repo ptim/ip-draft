@@ -4,9 +4,9 @@ import Link from 'gatsby-link'
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 
 
-const Homepage = () => (
+const Team = () => (
   <DefaultTemplateWrapper>
-    <div className="About">
+    <div className="Team">
 
       <div className="slab">
         <div className="container">
@@ -67,4 +67,4 @@ const Homepage = () => (
   </DefaultTemplateWrapper>
 )
 
-export default Homepage
+export default Team
