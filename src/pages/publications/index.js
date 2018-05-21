@@ -14,31 +14,31 @@ const Homepage = () => (
 
           <h2>Journal Publications</h2>
 
-          <p>Jamieson, L., Paradies, Y., Gunthorpe, W., Cairney, S., & Sayers, S. (2011). Oral health and social and emotional well-being in a birth cohort of Aboriginal Australian young adults. Bmc Public Health, 11, 656. http://doi.org/10.1186/1471-2458-11-656</p>
+          <p>Jamieson, L., Paradies, Y., Gunthorpe, W., Cairney, S., & Sayers, S. (2011). Oral health and social and emotional well-being in a birth cohort of Aboriginal Australian young adults. Bmc Public Health, 11, 656. <a href="http://doi.org/10.1186/1471-2458-11-656">http://doi.org/10.1186/1471-2458-11-656</a></p>
 
-          <p>Clough, A. R., D'Abbs, P., Cairney, S., Gray, D., Maruff, P., Parker, R., & O'Reilly, B. (2004). Emerging patterns of cannabis and other substance use in Aboriginal communities in Arnhem Land, Northern Territory: a study of two communities. Drug and Alcohol Review, 23(4), 381—90. http://doi.org/10.1080/09595230412331324509</p>
+          <p>Clough, A. R., D'Abbs, P., Cairney, S., Gray, D., Maruff, P., Parker, R., & O'Reilly, B. (2004). Emerging patterns of cannabis and other substance use in Aboriginal communities in Arnhem Land, Northern Territory: a study of two communities. Drug and Alcohol Review, 23(4), 381—90. <a href="http://doi.org/10.1080/09595230412331324509">http://doi.org/10.1080/09595230412331324509</a></p>
 
-          <p>Cairney, S., & Maruff, P. (2007). CHAPTER 16 — Petrol Sniffing, the Brain, and Aboriginal Culture: Between Sorcery and Neuroscience. In Consciousness and Cognition (p. 225—V). http://doi.org/10.1016/B978-012373734-2/50017-0</p>
+          <p>Cairney, S., & Maruff, P. (2007). CHAPTER 16 — Petrol Sniffing, the Brain, and Aboriginal Culture: Between Sorcery and Neuroscience. In Consciousness and Cognition (p. 225—V). <a href="http://doi.org/10.1016/B978-012373734-2/50017-0">http://doi.org/10.1016/B978-012373734-2/50017-0</a></p>
 
-          <p>Dingwall, K. M., & Cairney, S. (2010). Psychological and cognitive assessment of Indigenous Australians. The Australian and New Zealand Journal of Psychiatry, 44(1), 20—30. http://doi.org/10.3109/00048670903393670</p>
+          <p>Dingwall, K. M., & Cairney, S. (2010). Psychological and cognitive assessment of Indigenous Australians. The Australian and New Zealand Journal of Psychiatry, 44(1), 20—30. <a href="http://doi.org/10.3109/00048670903393670">http://doi.org/10.3109/00048670903393670</a></p>
 
-          <p>Thomas, A., Cairney, S., Gunthorpe, W., Paradies, Y., & Sayers, S. (2010). Strong Souls: development and validation of a culturally appropriate tool for assessment of social and emotional well-being in Indigenous youth. The Australian and New Zealand Journal of Psychiatry, 44(1), 40—8. http://doi.org/10.3109/00048670903393589</p>
+          <p>Thomas, A., Cairney, S., Gunthorpe, W., Paradies, Y., & Sayers, S. (2010). Strong Souls: development and validation of a culturally appropriate tool for assessment of social and emotional well-being in Indigenous youth. The Australian and New Zealand Journal of Psychiatry, 44(1), 40—8. <a href="http://doi.org/10.3109/00048670903393589">http://doi.org/10.3109/00048670903393589</a></p>
 
-          <p>Dingwall, K. M., Maruff, P., Fredrickson, A., & Cairney, S. (2011). Cognitive recovery during and after treatment for volatile solvent abuse. Drug and Alcohol Dependence, 118(2—3), 180—185. http://doi.org/10.1016/j.drugalcdep.2011.03.017</p>
+          <p>Dingwall, K. M., Maruff, P., Fredrickson, A., & Cairney, S. (2011). Cognitive recovery during and after treatment for volatile solvent abuse. Drug and Alcohol Dependence, 118(2—3), 180—185. <a href="http://doi.org/10.1016/j.drugalcdep.2011.03.017">http://doi.org/10.1016/j.drugalcdep.2011.03.017</a></p>
 
-          <p>Dingwall, K. M., Maruff, P., & Cairney, S. (2011). Neuropsychological problems and alcohol availability appear to be key factors in continued heavy alcohol use by Aboriginal Australians. Medical Journal of Australia, 194(1), 50—51. http://doi.org/letters_030111_fm-5 [pii]</p>
+          <p>Dingwall, K. M., Maruff, P., & Cairney, S. (2011). Neuropsychological problems and alcohol availability appear to be key factors in continued heavy alcohol use by Aboriginal Australians. Medical Journal of Australia, 194(1), 50—51. <a href="http://doi.org/letters_030111_fm-5">http://doi.org/letters_030111_fm-5</a> [pii]</p>
 
           <p>Priest, N. C., Paradies, Y. C., Gunthorpe, W., Cairney, S., & Sayers, S. M. (2011). Racism as a determinant of social and emotional wellbeing for Aboriginal Australian youth. Medical Journal of Australia, 194(10), 546—550.</p>
 
-          <p>Dingwall, K. M., & Cairney, S. (2011). Recovery from central nervous system changes following volatile substance misuse. Substance Use and Misuse, 46(SUPPL. 1), 73—83. http://doi.org/10.3109/10826084.2011.580221</p>
+          <p>Dingwall, K. M., & Cairney, S. (2011). Recovery from central nervous system changes following volatile substance misuse. Substance Use and Misuse, 46(SUPPL. 1), 73—83. <a href="http://doi.org/10.3109/10826084.2011.580221">http://doi.org/10.3109/10826084.2011.580221</a></p>
 
-          <p>Dingwall, K. M., Maruff, P., & Cairney, S. (2011). Similar profile of cognitive impairment and recovery for Aboriginal Australians in treatment for episodic or chronic alcohol use. Addiction, 106(8), 1419—1426. http://doi.org/10.1111/j.1360-0443.2011.03434.x</p>
+          <p>Dingwall, K. M., Maruff, P., & Cairney, S. (2011). Similar profile of cognitive impairment and recovery for Aboriginal Australians in treatment for episodic or chronic alcohol use. Addiction, 106(8), 1419—1426. <a href="http://doi.org/10.1111/j.1360-0443.2011.03434.x">http://doi.org/10.1111/j.1360-0443.2011.03434.x</a></p>
 
-          <p>Cairney, S., O' Connor, N., Dingwall, K. M., Maruff, P., Shafiq-Antonacci, R., Currie, J., & Currie, B. J. (2013). A prospective study of neurocognitive changes 15 years after chronic inhalant abuse. Addiction, 108(6), 1107—1114. http://doi.org/10.1111/add.12124</p>
+          <p>Cairney, S., O' Connor, N., Dingwall, K. M., Maruff, P., Shafiq-Antonacci, R., Currie, J., & Currie, B. J. (2013). A prospective study of neurocognitive changes 15 years after chronic inhalant abuse. Addiction, 108(6), 1107—1114. <a href="http://doi.org/10.1111/add.12124">http://doi.org/10.1111/add.12124</a></p>
 
           <p>Nguyen, O., & Cairney, S. (2013). Literature review of the interplay between education, employment, health and wellbeing for Aboriginal and Torres Strait Islander people in remote areas: working towards an Aboriginal and Torres Strait Islander wellbeing framework. CRC-REP Working Paper CW013. Alice Springs: Ninti One Limited.</p>
 
-          <p>Dingwall, K. M., Lindeman, M. A., & Cairney, S. (2014). "You've got to make it relevant": barriers and ways forward for assessing cognition in Aboriginal clients. BMC Psychology, 2(1), 13. http://doi.org/10.1186/2050-7283-2-13</p>
+          <p>Dingwall, K. M., Lindeman, M. A., & Cairney, S. (2014). "You've got to make it relevant": barriers and ways forward for assessing cognition in Aboriginal clients. BMC Psychology, 2(1), 13. <a href="http://doi.org/10.1186/2050-7283-2-13">http://doi.org/10.1186/2050-7283-2-13</a></p>
 
           <p>Cairney, S., & Abbott, T. (2014). Aboriginal wellbeing in a "red dirt economy." Journal of Australian Indigenous Issues, 17(4), 11—30.</p>
 
@@ -56,15 +56,15 @@ const Homepage = () => (
 
           <p>Eccles, K., Cairney, S., Abbott, T., & Wilson, B. (2017). "Exploring Wellbeing within Wunan's Financial Counselling, Capability and Resilience Hub - Applying the Interplay Wellbeing Framework".</p>
 
-          <p>Schultz, R., & Cairney, S. (2017). Caring for country and the health of aboriginal and torres strait Islander Australians. Medical Journal of Australia, 207(1), 8—10. http://doi.org/10.5694/mja16.00687</p>
+          <p>Schultz, R., & Cairney, S. (2017). Caring for country and the health of aboriginal and torres strait Islander Australians. Medical Journal of Australia, 207(1), 8—10. <a href="http://doi.org/10.5694/mja16.00687">http://doi.org/10.5694/mja16.00687</a></p>
 
           <p>Cairney, S., Abbott, T., Quinn, S., Yamaguchi, J., Wilson, B., & Wakerman, J. (2017). Interplay Wellbeing Framework: a collaborative methodology "bringing together stories and numbers" to quantify Aboriginal cultural values in remote Australia. International Journal for Equity in Health, 16(1), 1—33.</p>
 
           <p>Wilson, B., Abbott, T., Quinn, S., Guenther, J., Mcrae-williams, E., & Cairney, S. (2017). Interplay Wellbeing Framework: Empowerment the key to improved education and employment outcomes for Aboriginal and Torres Strait Islander people in remote Australia. Educational Research for Policy and Practice.</p>
 
-          <p>Wilson, B., Quinn, S. J., Abbott, T., & Cairney, S. (2017). The role of Aboriginal literacy in improving English literacy in remote Aboriginal communities: an empirical systems analysis with the Interplay Wellbeing Framework. Educational Research for Policy and Practice, 1—13. http://doi.org/10.1007/s10671-017-9217-z </p>
+          <p>Wilson, B., Quinn, S. J., Abbott, T., & Cairney, S. (2017). The role of Aboriginal literacy in improving English literacy in remote Aboriginal communities: an empirical systems analysis with the Interplay Wellbeing Framework. Educational Research for Policy and Practice, 1—13. <a href="http://doi.org/10.1007/s10671-017-9217-z">http://doi.org/10.1007/s10671-017-9217-z</a> </p>
 
-          <p>Crossin, R., Cairney, S., Lawrence, A. J., & Duncan, J. R. (2017). Adolescent inhalant abuse leads to other drug use and impaired growth; implications for diagnosis. Australian and New Zealand Journal of Public Health, 41(1), 99—104. http://doi.org/10.1111/1753-6405.12595</p>
+          <p>Crossin, R., Cairney, S., Lawrence, A. J., & Duncan, J. R. (2017). Adolescent inhalant abuse leads to other drug use and impaired growth; implications for diagnosis. Australian and New Zealand Journal of Public Health, 41(1), 99—104. <a href="http://doi.org/10.1111/1753-6405.12595">http://doi.org/10.1111/1753-6405.12595</a></p>
 
           <p>McRae-Williams, E., Yamaguchi, J., Wilson, B., Schultz, R., Abbott, T., & Cairney, S. (2018). Interplay Wellbeing Framework: Community Perspectives on Working Together for Effective Service Delivery in Remote Aboriginal Communities. The International Indigenous Policy Journal, 9(1).</p>
 
@@ -200,7 +200,7 @@ const Homepage = () => (
 
           <p>Cairney S. 2016. How do you measure the value of culture? Bringing together stories and numbers with the Interplay Wellbeing Framework. 5th Rural and Remote Health Scientific Symposium. 6-7 September. Old Parliament House, Canberra. (<a href="https://www.google.com/url?q=https://webcast.gigtv.com.au/Mediasite/Play/e1972ee3b2bf4bc89a9f9b0e3a2481181d?catalog%3Db2c277cd-8aed-412e-b711-40cee6def224&sa=D&ust=1526880550991000">view presentation</a> on external site).</p>
 
-          <p>Cairney S. What Aboriginal Knowledge can teach us about Happiness, TEDx StKilda, June 2016 (https://youtu.be/Cf-dK8HFP2c).</p>
+          <p>Cairney S. What Aboriginal Knowledge can teach us about Happiness, TEDx StKilda, June 2016 (<a href="https://YoutU.BE/Cf-dK8HFP2c).">https://youtu.be/Cf-dK8HFP2c).</a></p>
 
           <p>Cairney S, Abbott T, Wilson B and Quinn S. 2015. Social and culture indicators from the Interplay Wellbeing Framework for Aboriginal and Torres Strait Islander people in remote Australia. The Australia New Zealand Society for Ecological Economies Conference, Thriving Through Transformation — Local to Global Sustainability. 19-23 October. Armidale, NSW. (<a href="https://www.google.com/url?q=http://www.slideshare.net/Ninti_One/social-and-cultural-indicators-from-the-interplay-wellbeing-framework-for-aboriginal-and-torres-strait-islander-people-in-remote-australia-57986722&sa=D&ust=1526880550993000">slideshare presentation</a>)</p>
 
