@@ -49,7 +49,7 @@ a:hover {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.cols {display: flex;}
+.cols {display: flex; flex-wrap: wrap;}
 .col--25 {width: 25%;}
 .col--33 {width: 33.33%;}
 .col--50 {width: 50%;}
@@ -71,8 +71,8 @@ a:hover {
     margin-right: -.5rem;
 }
 .cols--padded > div {
-    margin-left: .5rem;
-    margin-right: .5rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
 }
 
 .centered {
