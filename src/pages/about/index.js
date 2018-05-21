@@ -10,54 +10,26 @@ const Homepage = () => (
 
       <div className="slab">
         <div className="container">
-          <h1 className="underline">Who Are We</h1>
-
-          <h2>Sheree Cairney</h2>
+          <h1 className="underline">The Story behind The Interplay Project</h1>
 
           <p>
-            Sheree Cairney is a Neuroscientist who has spent two decades leading research and innovation projects in Aboriginal communities in the most remote regions across Australia. Her research has shed light on the transformation of brain and behaviour that happens-with petrol sniffing, alcohol and other drugs - and led to ground-breaking clinical evidence the brain can repair itself if substance abuse stops early enough. Currently an Associate Professor at Flinders University, she has published over 50 scientific articles, and produced creative and digital learning tools, and psychosocial screening instruments that are used across the country.
-          </p>
-          <p>
-            Her science and innovation stories have been told on national media, and informed policy, education curriculum, rehabilitation programs and national clinical guidelines. She has led ‘The Interplay Project’ for 7 years with the aim of developing an Aboriginal wellbeing framework from the ground up to represent Aboriginal cultural values to policy.
-          </p>
-          <p>
-            Sheree is passionate about bringing together people and ideas to inspire and create change through integrating science, culture, art, business and policy.
+            The Interplay Project started as a national research project on wellbeing in remote Aboriginal and Torres Strait Islander communities conducted from 2011 to 2017. Wellbeing has been difficult to understand, measure and strengthen in remote Aboriginal and Torres Strait Islander communities, and part of the challenge has been genuinely engaging community members and incorporating their values and priorities into policy approaches.
           </p>
 
-          <h2>Tammy Abbott</h2>
-
           <p>
-            Tammy Abbott is of the Western Arrernte and Luritja/Pintupi people of Central Australia and was educated in Alice Springs and Victoria. Tammy has spent 24 years working to improve the educational, financial and wellbeing outcomes of Aboriginal people. In the first 7 years, she worked in bilingual education with Aboriginal kids in the classroom.
-          </p>
-          <p>
-            For the last 14 years, she has worked in engagement and culture brokerage roles with remote Aboriginal communities, Australian Governments and Academics. Tammy is currently working as the Senior Research Officer for Ninti One, which aims to strengthen and grow community-based research and evaluation activity and employment of Aboriginal Community Researchers. She has had a foundational role in the Interplay project through co-design and community engagement since 2012.
+            To improve Aboriginal wellbeing and to break continuing cycles of failure and disadvantage, the markers of success need to be attainable and relevant, and reflect cultural strengths and community values. Aboriginal knowledge is passed down through stories, and governments mainly speak the language of numbers, so we developed a coordinated approach to merge Aboriginal knowledge and western science – by bringing together stories and numbers.
           </p>
 
-          <h2>Jessica Yamaguchi</h2>
+          <p>
+            Over four years, our team of researchers, community members and government representatives collaborated to design and implement a holistic Interplay Wellbeing Framework for remote Aboriginal and Torres Strait Islander communities. The framework integrates Aboriginal priorities of culture, empowerment and community, with the government priorities of education, employment and health. These priorities are integrated into this holistic model of wellbeing—represented by six main ‘domains’—with wellbeing as the central domain.
+          </p>
 
           <p>
-            Jessica Yamaguchi is a Gangalidda and Waanyi woman from the Gulf of Carpentaria, Queensland. Jessica has worked as a key research partner on the Interplay research project for over 4 years, through her role in the Indigenous Affairs Information and Evaluation Branch in the Department of the Prime Minister and Cabinet. Jessica has over 16 years experience working in the Australian Public Service in various roles relating to Indigenous policy and program design, service provision, evaluation, research and analysis.
+            The Interplay Wellbeing Framework was developed as a collaboration between the Ninti One Foundation, the Australian Government’s Department of the Prime Minister and Cabinet and Flinders University as part of the Cooperative Research Centre for Remote Economic Participation (CRC-REP).
           </p>
-          <p>
-            Her work on research and evaluations include:
-          </p>
-          <ul>
-            <li>research for the Justice Clearinghouse on the implementation of Indigenous crime and justice policies and programs in Australia 2015</li>
-            <li>the National Partnership Agreement on Remote Service Delivery Evaluation 2013</li>
-            <li>the Northern Territory Emergency Response Evaluation Report 2011, the design of community research for the Northern Territory Emergency Response Evaluation, key aspects of community safety research including a survey of service providers in remote communities, and</li>
-            <li>the Ninti One Cooperative Research Centre for Remote Economic Participation (CRC- REP) - Interplay Project.</li>
-          </ul>
-
-          <h2>Byron Wilson</h2>
 
           <p>
-            Byron Wilson is a PhD student through Menzies School of Health Research & Charles Darwin University. He is a science teacher with over 10 years experience, including 6 years as Science Coordinator. Over the last 4 years Byron has conducted research focussing on remote contexts, particularly in the Northern Territory of Australia. A recurring theme in his work is the importance of looking at the holistic nature of education. He is also interested in a systems based approach to wellbeing.
-          </p>
-          <p>
-            His recent analysis based on The Interplay Wellbeing Framework empowers Aboriginal and Torres Strait Islander knowledge systems and their accompanying beliefs. Understanding the interface between culture and empowerment on the context of education in remote communities has also been a key focus.
-          </p>
-          <p>
-            Byron is experienced in multilevel mixed modelling, structural equation modelling and assessing goodness-of-fit in binary regression models.
+            You can read more about the research methodology here (see attached research methodology sheet), and in this publication in the International Journal of Equity in Health that outlines the scientific validation of the Interplay Wellbeing Framework, methodology and survey.
           </p>
 
         </div>

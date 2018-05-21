@@ -19,15 +19,20 @@ const Footer = () => (
         </div>
 
         <div className="col--25 col--50--narrow">
-          <Link to='/about'>About Us</Link>
-          <Link to='#privacy'>Privacy</Link>
+          <ul>
+            <li><Link to='/about'>About Us</Link></li>
+            <li><Link to='/team'>Team</Link></li>
+            <li><Link to='#privacy'>Privacy</Link></li>
+          </ul>
         </div>
 
         <div className="col--25 col--50--narrow">
           <div className={styles.socialIcons}>
-            <a href="#">FB</a>{' '}
-            <a href="#">TW</a>{' '}
-            <a href="#">LI</a>{' '}
+            <ul>
+              <li><a href="#">FB</a>{' '}</li>
+              <li><a href="#">TW</a>{' '}</li>
+              <li><a href="#">LI</a>{' '}</li>
+            </ul>
           </div>
         </div>
       </div>
