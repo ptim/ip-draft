@@ -45,7 +45,7 @@ a:hover {
     padding: 1rem;
 }
 
-.slab:nth-child(odd) {
+.slab:nth-of-type(even) {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
