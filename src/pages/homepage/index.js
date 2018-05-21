@@ -32,6 +32,46 @@ const Homepage = () => (
         </div>
       </div>
 
+      <div className="slab">
+        <div className="container">
+          <h2>Stories from the Ground</h2>
+
+          <div className="cols cols--padded">
+            <div className="col--33">
+              <h3>Culture</h3>
+
+              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/Rso0RqiX_-U?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+              <p>This short documentary reveals the complexity of Aboriginal culture in remote Australia. It also suggests that connecting with culture - through being on country, speaking in language, and practising culture in the everyday - improves the wellbeing of Aboriginal people. living in remote Australia.</p>
+            </div>
+
+            <div className="col--33">
+              <h3>Education and Learning</h3>
+
+              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/eY64yYhlSLw?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+              <p>This video presents a range of perspectives on what can improve education outcomes for Aboriginal children. living in remote Australia.</p>
+            </div>
+
+            <div className="col--33">
+              <h3>Work</h3>
+
+              <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/79WB1ew-SXU?rel=0&amp;controls=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+              <p>What does meaningful work in remote Australia look like? Watch the responses here.</p>
+            </div>
+          </div>
+
+          <h3>Want to see more?</h3>
+
+          <p>Over 30 short documentary videos from the Interplay Project are available here, and embedded in the Interplay Wellbeing Framework here.  </p>
+
+          <p>These are freely available for use in any education or other applications that promotes the wellbeing meaning behind the messages. </p>
+
+          <p>Please feel free to give us feedback on how you are using these resources. </p>
+        </div>
+      </div>
+
       <div className="slab images">
         <div className="container">
           <div className="cols cols--padded">
@@ -109,6 +149,7 @@ const Homepage = () => (
           <p>Developed as a collaboration between the Ninti One Foundation, the Australian Government’s Department of Prime Minister and Cabinet and Flinders University as part of the Cooperative Research Centre for Remote Economic Participation (CRC-REP)</p>
         </div>
       </div>
+
     </div>
   </DefaultTemplateWrapper>
 )
