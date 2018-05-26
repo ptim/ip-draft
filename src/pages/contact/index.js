@@ -17,6 +17,18 @@ const Contact = () => (
       <div className="slab">
         <div className="container">
           <p>Fill in the <a href="/client-needs-survey">Client Needs Survey</a>.</p>
+
+          <ul>
+            <li>email (req)</li>
+            <li>phone</li>
+            <li>gov, phil, comm?</li>
+            <ul>
+              <li>design an evaluation</li>
+              <li>want to know more</li>
+              <li>contact you</li>
+            </ul>
+            <li>message</li>
+          </ul>
         </div>
       </div>
 

@@ -64,12 +64,12 @@ a:hover {
 }
 
 .slabs--alternating .slab:nth-of-type(even) {
-    background-color: $green--light;
+    // background-color: $green--light;
 }
 
-.slab--orange {background-color: $orange;}
-.slab--blue {background-color: $blue;}
-.slab--green {background-color: $green;}
+.slab--orange {background-color: $orange; color: $white;}
+.slab--blue {background-color: $blue; color: $white;}
+.slab--green {background-color: $green; color: $white;}
 
 .container {
     margin: 0 auto;
