@@ -1,8 +1,8 @@
 @import "~../../layouts/variables.scss";
 
 .Footer {
-    padding-top: 1rem;
-    background-color: grey;
+    padding-top: 7rem;
+    background: $grey url(./dotted-footer-grey.png) repeat-x center top / 768px 30px;
     color: white;
 }
 
