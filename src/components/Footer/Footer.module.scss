@@ -1,3 +1,4 @@
+@import "~../../layouts/variables.scss";
 
 .Footer {
     padding-top: 1rem;
@@ -11,5 +12,5 @@
 
 .Footer__copyright {
     padding: .25rem 0;
-    background-color: #555;
+    background-color: $charcoal;
 }
