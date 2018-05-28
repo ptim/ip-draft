@@ -60,7 +60,7 @@ a:hover {
 
 
 .slab {
-    padding: 2rem 1rem;
+    padding: 2rem 0;
 }
 
 .slabs--alternating .slab:nth-of-type(even) {
@@ -72,8 +72,9 @@ a:hover {
 .slab--green {background-color: $green; color: $white;}
 
 .container {
-    margin: 0 auto;
     max-width: calc(1024px - 2rem);
+    margin: 0 auto;
+    padding: 0 1rem;
 }
 
 
