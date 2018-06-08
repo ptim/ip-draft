@@ -10,7 +10,8 @@ const Team = () => (
 
       <div className="slab">
         <div className="container">
-          <h1 className="underline">Who Are We</h1>
+          <h1 className="underline">Who We Are</h1>
+
 
           <h2>Sheree Cairney</h2>
 
@@ -24,6 +25,7 @@ const Team = () => (
             Sheree is passionate about bringing together people and ideas to inspire and create change through integrating science, culture, art, business and policy.
           </p>
 
+
           <h2>Tammy Abbott</h2>
 
           <p>
@@ -33,20 +35,13 @@ const Team = () => (
             For the last 14 years, she has worked in engagement and culture brokerage roles with remote Aboriginal communities, Australian Governments and Academics. Tammy is currently working as the Senior Research Officer for Ninti One, which aims to strengthen and grow community-based research and evaluation activity and employment of Aboriginal Community Researchers. She has had a foundational role in the Interplay project through co-design and community engagement since 2012.
           </p>
 
+
           <h2>Jessica Yamaguchi</h2>
 
           <p>
             Jessica Yamaguchi is a Gangalidda and Waanyi woman from the Gulf of Carpentaria, Queensland. Jessica has worked as a key research partner on the Interplay research project for over 4 years, through her role in the Indigenous Affairs Information and Evaluation Branch in the Department of the Prime Minister and Cabinet. Jessica has over 16 years experience working in the Australian Public Service in various roles relating to Indigenous policy and program design, service provision, evaluation, research and analysis.
           </p>
-          <p>
-            Her work on research and evaluations include:
-          </p>
-          <ul>
-            <li>research for the Justice Clearinghouse on the implementation of Indigenous crime and justice policies and programs in Australia 2015</li>
-            <li>the National Partnership Agreement on Remote Service Delivery Evaluation 2013</li>
-            <li>the Northern Territory Emergency Response Evaluation Report 2011, the design of community research for the Northern Territory Emergency Response Evaluation, key aspects of community safety research including a survey of service providers in remote communities, and</li>
-            <li>the Ninti One Cooperative Research Centre for Remote Economic Participation (CRC- REP) - Interplay Project.</li>
-          </ul>
+
 
           <h2>Byron Wilson</h2>
 
