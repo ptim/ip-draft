@@ -11,12 +11,10 @@
     "gatsby-plugin-netlify-cms": "^2.0.1",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gatsby-plugin-sass": "^1.0.26",
-    "gatsby-plugin-typography": "^1.7.18",
     "gatsby-source-filesystem": "^1.5.33",
     "gatsby-transformer-remark": "^1.7.40",
     "netlify-cms": "^1.5.0",
-    "react-helmet": "^5.2.0",
-    "typography-theme-parnassus": "^0.15.10"
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
     "gatsby"
