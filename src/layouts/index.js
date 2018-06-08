@@ -1,13 +1,10 @@
 import React, {Fragment} from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import Typography from 'typography';
-import interplayTheme from './typography.js'
 
-import './layout.scss'
-import './typography.scss'
-
-const typography = new Typography(interplayTheme)
+import './gatsby-normalize.scss'
+// import './layout.scss'
+// import './typography.scss'
 
 
 const TemplateWrapper = ({ children }) => (
