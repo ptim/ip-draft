@@ -7,3 +7,4 @@ yarn-error.log
 /public/*
 !/public/admin/
 !/public/robots.txt
+!/public/static/
