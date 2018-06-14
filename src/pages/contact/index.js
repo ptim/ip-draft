@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from '../../components/Button'
 import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -16,7 +17,9 @@ const Contact = () => (
 
       <div className="slab">
         <div className="container">
-          <p>Fill in the <a href="/client-needs-survey">Client Needs Survey</a>.</p>
+          <Button to="/client-needs-survey" style="green">Find out how interplay can map to suit your needs</Button>
+
+          <p>Alternatively, contact Sheree on <tel>+61 438 121 473</tel>.</p>
 
           <ul>
             <li>email (req)</li>

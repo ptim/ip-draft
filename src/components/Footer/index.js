@@ -9,35 +9,22 @@ const Footer = () => (
     <div className="container">
       <div className="cols cols--padded">
         <div className="col--25 col--50--narrow">
-          <p>
-            Concrete lights garage otaku savant bomb face forwards youtube tower post.
-            Sign man Legba franchise physical crypto-sensory receding youtube beef noodles.
-          </p>
         </div>
 
         <div className="col--25 col--50--narrow">
           <ul>
-            <li><Link to='/client-needs-survey'>Client needs survey</Link></li>
+            <li><Link to='/client-needs-survey'>Map your needs</Link></li>
             <li><Link to='/contact'>Contact</Link></li>
             <li><Link to='/about'>About Us</Link></li>
             <li><Link to='/team'>Team</Link></li>
-            <li><Link to='/publications'>Publications</Link></li>
-            <li><Link to='/interplay-v1'>Interplay v1</Link></li>
-            <li><Link to='/videos'>Videos</Link></li>
-            <li><Link to='/privacy'>Privacy</Link></li>
           </ul>
         </div>
 
         <div className="col--25 col--50--narrow">
           <ul>
-            <li><Link to='/client-needs-survey'>Client needs survey</Link></li>
-            <li><Link to='/contact'>Contact</Link></li>
-            <li><Link to='/about'>About Us</Link></li>
-            <li><Link to='/team'>Team</Link></li>
             <li><Link to='/pulications'>Pulications</Link></li>
             <li><Link to='/interplay-v1'>Interplay v1</Link></li>
             <li><Link to='/videos'>Videos</Link></li>
-            <li><Link to='/privacy'>Privacy</Link></li>
           </ul>
         </div>
 

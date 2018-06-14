@@ -14,7 +14,10 @@ const InterplayV1 = () => (
 
           <p><a href="https://old.crc-rep.com/wellbeingframework/">www.crc-rep.com/wellbeingframework</a></p>
 
-          <p>This is an interactive version of the Interplay Wellbeing Framework. It conveys the1 complexity of wellbeing. Importantly it is a "whole-of-system" approach, to understand how different components work together as part of an interconnected system. </p>
+          <p>
+            This is an interactive version of the Interplay Wellbeing Framework. It conveys the complexity of wellbeing.
+            Importantly it is a "whole-of-system" approach, to understand how different components work together as part of an interconnected system.
+          </p>
 
           <ul>
             <li>Click on each coloured rock to break out into its different parts.</li>
@@ -22,15 +25,7 @@ const InterplayV1 = () => (
             <li>Click the "play" button on each rock to see a video of community members telling the story in their own words.</li>
           </ul>
 
-          <p>Click on the links below for more information.</p>
-
-          <ul>
-            <li>The Interplay Project</li>
-            <li>How to use this site</li>
-            <li>Research Methodology</li>
-          </ul>
-
-          <p>More information on the Interplay project (including publications) is available <a href="www.crc-rep.com/wellbeingframework">here</a>.</p>
+          <p>More information on the Interplay project (including publications) is available at <a href="http://crc-rep.com/interplay">crc-rep.com/interplay</a>.</p>
         </div>
       </div>
 
