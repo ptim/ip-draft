@@ -22,6 +22,7 @@ const Footer = () => (
 
         <div className="col--25 col--50--narrow">
           <ul>
+            <li><Link to='/case-studies'>Case Studies</Link></li>
             <li><Link to='/pulications'>Pulications</Link></li>
             <li><Link to='/interplay-v1'>Interplay v1</Link></li>
             <li><Link to='/videos'>Videos</Link></li>
