@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import './Header.scss'
+import styles from './navigation.module.scss'
 import './interplay-logo.png'
 
 
@@ -13,11 +14,19 @@ const Header = () => (
       </Link>
     </h1>
 
-    <ul className="Header__links">
-      <li><Link to="/client-needs-survey">Get Started</Link></li>
-      <li><Link to="/contact">Contact</Link></li>
-      <li><Link to="/about">About</Link></li>
-    </ul>
+    {/*
+    <nav>
+      <div className={styles.toggle}>
+        toggle
+      </div>
+
+      <ul className={styles.collapsible}>
+        <li><Link to="/client-needs-survey">Get Started</Link></li>
+        <li><Link to="/contact">Contact</Link></li>
+        <li><Link to="/about">About</Link></li>
+      </ul>
+    </nav>
+    */}
   </nav>
 )
 
