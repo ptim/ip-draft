@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import MailchimpSignup from './MailchimpSignup'
 import styles from './Footer.module.scss'
 
 
@@ -9,6 +10,7 @@ const Footer = () => (
     <div className="container">
       <div className="cols cols--padded">
         <div className="col--25 col--50--narrow">
+          <MailchimpSignup />
         </div>
 
         <div className="col--25 col--50--narrow">
