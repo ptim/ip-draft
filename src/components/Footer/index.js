@@ -21,7 +21,7 @@ const Footer = () => (
             <li><Link to='/contact'>Contact</Link></li>
             <li><Link to='/about'>About Us</Link></li>
             <li><Link to='/team'>Team</Link></li>
-            <li><Link to='/pulications'>Pulications</Link></li>
+            <li><Link to='/publications'>Publications</Link></li>
             <li><Link to='/interplay-v1'>Interplay v1</Link></li>
             <li><Link to='/videos'>Videos</Link></li>
             <li><Link to='/privacy'>Privacy</Link></li>
