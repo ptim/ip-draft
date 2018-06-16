@@ -10,7 +10,7 @@ const Footer = () => (
     <div className="container">
       <div className="cols cols--padded">
         <div className="col--25 col--50--narrow">
-          <MailchimpSignup />
+          {/*<MailchimpSignup />*/}
         </div>
 
         <div className="col--25 col--50--narrow">
