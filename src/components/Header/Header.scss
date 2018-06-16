@@ -1,0 +1,94 @@
+
+.Header {
+    position: fixed;
+    z-index: 100;
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+.Header + div {
+    margin-top: 70px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .Header + div {
+        margin-top: 90px;
+    }
+}
+
+.Header h1 {
+    position: relative;
+
+    width: 320px;
+    margin-left: calc(15px + 1rem);
+    margin-bottom: 0;
+    padding-left: 55px;
+}
+
+@media screen and (min-width: 700px) {
+    .Header h1 {
+        top: 5px;
+        padding-left: 72px;
+    }
+}
+
+
+.Header h1 span {
+    text-indent: -999rem;
+    opacity: 0;
+    font-size: 0.01rem;
+}
+
+.Header h1 a {
+    display: inline-block;
+    width: 170px;
+    height: 49px;
+    background: url('./interplay-logo.png') no-repeat;
+    background-position: 0 bottom;
+    background-size: cover;
+}
+
+@media screen and (min-width: 700px) {
+    .Header h1 a {
+        width: 240px;
+        height: 69px;
+    }
+}
+
+.Header h1 a:before {
+    position: absolute;
+    top: -5px;
+    left: -20px;
+
+    content: '';
+    display: block;
+    width: 81px;
+    height: 57px;
+    background: url('./interplay-logo.png') no-repeat;
+    background-size:  cover;
+    background-position: -5px 0;
+}
+
+@media screen and (min-width: 700px) {
+    .Header h1 a:before {
+        width: 101px;
+        height: 71px;
+        /*background-position: -5px 0;*/
+    }
+}
+
+.Header__links {
+    margin: 0;
+    text-decoration: none;
+}
+
+.Header__links li {
+    display: inline-block;
+    margin-left: 1rem;
+}
