@@ -25,11 +25,16 @@ const Homepage = () => (
         <div className="container">
           <div className="hero__content">
             <p className="alpha">Maps the connections to wellbeing</p>
+
+            <p>
+              Interplay is a scientific mapping tool that measures wellbeing holistically.{' '}
+              We bring community into the design, to evaluate programs based on shared measures of success.
+            </p>
           </div>
         </div>
       </div>
 
-      <div className="slab">
+{/*      <div className="slab">
         <div className="container">
           <Button to="/client-needs-survey" style="green">Find out how interplay can map to suit your needs</Button>
         </div>
@@ -42,10 +47,13 @@ const Homepage = () => (
           </div>
         </div>
       </div>
+*/}
 
       <div className="slabs--alternating">
         <div className="slab">
           <div className="container">
+            <h2 className="underline">What We Do</h2>
+
             <div className="cols cols--padded">
               <div className="col--33">
                 <h3>Community Consultation</h3>
@@ -89,13 +97,21 @@ const Homepage = () => (
                 {/*(MODELS PAGE)*/}
               </div>
             </div>
+
+            <Button to="/client-needs-survey" style="blue">Find out how interplay can map to suit your needs</Button>
           </div>
         </div>
 
         <div className="slabs--alternating">
-          <div className="slab slab--blue">
+          <div className="slab slab--green">
             <div className="container">
               <h2 className="underline">How we do it</h2>
+
+              <ul>
+                <li>We work together in a '<a href="/shared-space/">shared space</a>' where each of the key groups collaborate in every part of the project at every level</li>
+                <li>We take a holistic or '<a href="/models/">whole of system</a>' approach to understand how all the parts are interconnected or 'interplay'</li>
+                <li>We bring together stories and numbers to represent community values and priorities in a scientific framework</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -103,12 +119,6 @@ const Homepage = () => (
         <div className="slabs--alternating">
           <div className="slab">
             <div className="container">
-              <ul>
-                <li>We work together in a '<a href="/shared-space/">shared space</a>' where each of the key groups collaborate in every part of the project at every level</li>
-                <li>We take a holistic or '<a href="/models/">whole of system</a>' approach to understand how all the parts are interconnected or 'interplay'</li>
-                <li>We bring together stories and numbers to represent community values and priorities in a scientific framework</li>
-              </ul>
-
               <h2 className="underline">Case Study: Pathways to Education Success</h2>
 
               <p>900 Aboriginal adults were surveyed from 4 different remote Aboriginal communities. Interrelationships were identified with structural equation modeling. </p>
@@ -139,9 +149,17 @@ const Homepage = () => (
           <div className="container">
             <h2 className="underline">Backstory</h2>
 
-            <p>Our framework and indicators were designed from the ground-up over 6 years in Aboriginal communities in remote Australia.</p>
+            <div className="cols">
+              <div className="col--66">
+                <p>Our framework and indicators were designed from the ground-up over 6 years in Aboriginal communities in remote Australia.</p>
 
-            <p>Developed as a collaboration between the Ninti One Foundation, the Australian Government's Department of Prime Minister and Cabinet and Flinders University as part of the Cooperative Research Centre for Remote Economic Participation (CRC-REP)</p>
+                <p>Developed as a collaboration between the Ninti One Foundation, the Australian Government's Department of Prime Minister and Cabinet and Flinders University as part of the Cooperative Research Centre for Remote Economic Participation (CRC-REP)</p>
+              </div>
+
+              <div className="col--33">
+                <iframe width="320" height="180" src={`https://www.youtube-nocookie.com/embed/Cf-dK8HFP2c?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -177,6 +195,14 @@ const Homepage = () => (
                 <p><Button to="/videos">See 30+ more videos</Button></p>
               </div>
             </div>
+          </div>
+        </div>
+
+        <div className="slab">
+          <div className="container">
+            <h2 className="underline">Who we work with</h2>
+
+            <p>LOGOS</p>
           </div>
         </div>
 
