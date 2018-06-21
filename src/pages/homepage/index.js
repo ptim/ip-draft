@@ -8,12 +8,10 @@ import Figure from '../../components/Figure'
 
 import styles from './Homepage.module.scss'
 
+// header BG
 import bg from './ip-bg.jpg'
-import pic1 from './pic-1.jpg'
-import pic2 from './pic-2.jpg'
-import pic3 from './pic-3.jpg'
-import ipGraphic from './IP-graphic-16-9.png'
 
+// case studies
 import imgLiteracy from '../case-studies/case-study-literacy.png'
 import pdfLiteracy from '../case-studies/InterplayPoster3_Literacy_19Oct2016.pdf'
 
@@ -52,21 +50,6 @@ const Homepage = () => (
           </div>
         </div>
       </div>
-
-{/*      <div className="slab">
-        <div className="container">
-          <Button to="/client-needs-survey" style="green">Find out how interplay can map to suit your needs</Button>
-        </div>
-      </div>
-
-      <div className="slabs--alternating">
-        <div className="slab slab--green">
-          <div className="container">
-            <h2 className="underline">What We Do</h2>
-          </div>
-        </div>
-      </div>
-*/}
 
       <div className="slabs--alternating">
         <div className="slab">
