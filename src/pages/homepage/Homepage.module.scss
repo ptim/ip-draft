@@ -38,3 +38,24 @@
         max-width: 500px;
     }
 }
+
+.logoContainer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    @media screen and (min-width: 620px) {
+        max-width: 620px;
+    }
+    @media screen and (min-width: 1050px) {
+        max-width: 810px;
+    }
+}
+
+.logo {
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 90px;
+}
