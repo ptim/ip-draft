@@ -63,7 +63,7 @@ const Homepage = () => (
       <div className={ styles.hero }>
         <div className="container">
           <div className="hero__content">
-            <p className="alpha">Maps the connections to wellbeing</p>
+            <h1 className="alpha">Maps the connections to wellbeing</h1>
 
             <p>
               Interplay is a scientific mapping tool that measures wellbeing holistically.{' '}

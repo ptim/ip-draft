@@ -17,6 +17,10 @@
         height: 30px;
         background: url(./dotted-border-white.png) repeat-x center bottom  / 768px 30px;
     }
+
+    h1 {
+        color: $white;
+    }
 }
 
 .hero__content {
