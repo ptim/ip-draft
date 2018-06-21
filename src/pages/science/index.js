@@ -33,12 +33,29 @@ const Science = () => (
         <div className="container">
           <p>
             The scientific story of the Interplay project is reported in the {' '}
-            <a href="https://equityhealthj.biomedcentral.com/articles/10.1186/s12939-017-0563-5">International Journal of Equity in Health</a>.
+            <a href="https://equityhealthj.biomedcentral.com/articles/10.1186/s12939-017-0563-5">{dedent`
+              International Journal of Equity in Health:
+              Interplay wellbeing framework: a collaborative methodology 'bringing together stories and numbers'
+              to quantify Aboriginal cultural values in remote Australia`}
+            </a>.
           </p>
 
           <p>The article describes the development, methodology and scientific validation of the Interplay Wellbeing Framework and indicators.</p>
 
-          <p>The Interplay team is well published; see our <a href="/publications">Publications</a>.</p>
+          <blockquote>
+            <p>{ dedent`
+              The Interplay Wellbeing Framework and Survey were statistically validated as a collaborative approach
+              to assessing wellbeing that is inclusive of other cultural worldviews, values and practices.
+              New community-derived social and cultural indicators were established, contributing valuable insight
+              to psychometric assessment across cultures. These analyses confirm that culture, empowerment and
+              community play key roles in the interplay with education, employment and health, as part of a holistic
+              and quantifiable system of wellbeing. This research supports the holistic concept of wellbeing
+              confirming that everything is interrelated and needs to be considered at the 'whole of system'
+              level in policy approaches.
+            `}</p>
+          </blockquote>
+
+          <p>The Interplay team is well published; browse the complete list of our <a href="/publications">Publications</a>.</p>
         </div>
       </div>
 
