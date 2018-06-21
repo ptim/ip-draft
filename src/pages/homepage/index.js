@@ -134,7 +134,8 @@ const Homepage = () => (
               <ul>
                 <li>We work together in a '<a href="/shared-space/">shared space</a>' where each of the key groups collaborate in every part of the project at every level</li>
                 <li>We take a holistic or '<a href="/models/">whole of system</a>' approach to understand how all the parts are interconnected or 'interplay'</li>
-                <li>We bring together stories and numbers to represent community values and priorities in a scientific framework</li>
+                <li>We bring together <a href="/shared-space/">stories and numbers</a> to represent community values and priorities in a scientific framework</li>
+                <li>Our approach is both strength-based and <a href="/science/">evidence based</a> to build sustainable impact</li>
               </ul>
             </div>
           </div>
