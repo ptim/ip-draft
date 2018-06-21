@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -7,6 +9,16 @@ import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 const ClientNeeds = () => (
   <DefaultTemplateWrapper>
     <div className="ClientNeeds">
+      <Helmet
+        title="Map Your Needs (survey) - The Interplay Project"
+        meta={[
+          { name: 'description',
+            content: dedent`
+              Get started towards designing an Interplay Map to suit your needs by filling in this survey.
+            `,
+          },
+        ]}
+      />
 
       <div className="slab slab--orange">
         <div className="container">

@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import FaPdf from 'react-icons/lib/fa/file-pdf-o';
 
@@ -45,6 +47,18 @@ const Logo = ({src}) => (
 const Homepage = () => (
   <DefaultTemplateWrapper>
     <div className="Homepage">
+      <Helmet
+        title="The Interplay Project"
+        meta={[
+          {
+            name: 'description',
+            content: dedent`
+              Reach your goals by mapping the connections to wellbeing.
+              Interplay maps are holistic, scientific and collaborative.
+            `,
+          },
+        ]}
+      />
 
       <div className={ styles.hero }>
         <div className="container">

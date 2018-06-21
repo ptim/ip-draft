@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -7,12 +9,26 @@ import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 const Team = () => (
   <DefaultTemplateWrapper>
     <div className="Team">
+      <Helmet
+        title="Team - The Interplay Project"
+        meta={[
+          { name: 'description',
+            content: dedent`
+              Meet the Interplay Team who have worked together in a 'shared space'
+              collaboration to build the Interplay Wellbeing Framework.
+            `,
+          },
+        ]}
+      />
+
+      <div className="slab slab--blue">
+        <div className="container">
+          <h1 className="underline">Who We Are</h1>
+        </div>
+      </div>
 
       <div className="slab">
         <div className="container">
-          <h1 className="underline">Who We Are</h1>
-
-
           <h2>Sheree Cairney</h2>
 
           <p>

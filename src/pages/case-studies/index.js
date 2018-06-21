@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import FaPdf from 'react-icons/lib/fa/file-pdf-o';
 
@@ -24,6 +26,17 @@ import imgNumeracy from './case-study-numeracy.png'
 const CaseStudies = () => (
   <DefaultTemplateWrapper>
     <div className="CaseStudies">
+      <Helmet
+        title="Case Studies - The Interplay Project"
+        meta={[
+          { name: 'description',
+            content: dedent`
+              See how Interplay maps show statistical pathways to wellbeing by bringing together stories and numbers.
+            `,
+          },
+        ]}
+      />
+
       <div className="slab slab--green">
         <div className="container">
           <h1 className="underline">Case Studies</h1>

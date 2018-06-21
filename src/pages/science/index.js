@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -10,6 +12,16 @@ import ruralHealthSympImg from './5th-Rural-and-Remote-Health-Scientific-Symposi
 const Science = () => (
   <DefaultTemplateWrapper>
     <div className="Science">
+      <Helmet
+        title="Science - The Interplay Project"
+        meta={[
+          { name: 'description',
+            content: dedent`
+              The Interplay Wellbeing Framework is scientifically and culturally validated.
+            `,
+          },
+        ]}
+      />
 
       <div className="slab slab--blue">
         <div className="container">

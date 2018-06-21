@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -9,6 +11,18 @@ import groupPic from './IP-group-pic-1.jpg'
 const About = () => (
   <DefaultTemplateWrapper>
     <div className="About">
+      <Helmet
+        title="About Us - The Interplay Project"
+        meta={[
+          { name: 'description',
+            content: dedent`
+              The Interplay Project started as a national research project
+              aiming to build a wellbeing framework from the ground up in
+              remote Aboriginal communities from 2011-2017.
+            `,
+          },
+        ]}
+      />
 
       <div className="slab slab--green">
         <div className="container">

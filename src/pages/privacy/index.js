@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -7,6 +9,16 @@ import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 const Privacy = () => (
   <DefaultTemplateWrapper>
     <div className="Privacy">
+      <Helmet
+        title="Privacy - The Interplay Project"
+        meta={[
+          { name: 'description',
+            content: dedent`
+              Privacy Policy
+            `,
+          },
+        ]}
+      />
 
       <div className="slab">
         <div className="container">

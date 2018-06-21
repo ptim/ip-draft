@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -14,11 +16,25 @@ const Video = ({id, children}) => (
 const Videos = () => (
   <DefaultTemplateWrapper>
     <div className="Videos">
+      <Helmet
+        title="Videos - The Interplay Project"
+        meta={[
+          { name: 'description',
+            content: dedent`
+              Stories from the Interplay Project are told in the words of Aboriginal people in these beautiful short documentaries.
+            `,
+          },
+        ]}
+      />
+
+      <div className="slab slab--blue">
+        <div className="container">
+          <h1 className="underline">Interplay Videos</h1>
+        </div>
+      </div>
 
       <div className="slab">
         <div className="container">
-          <h1 className="underline">Interplay Videos</h1>
-
           <p>Over 30 short documentary videos from the Interplay Project are embedded in the Interplay Wellbeing Framework, also available at the <a href="https://www.youtube.com/playlist?list=PLhGbPrpUa5d0FifxUiIiOZ55QRMCLXiXg">Interplay Youtube Channel</a>.</p>
 
           <p>These are freely available for use in any education or other applications that promotes the wellbeing meaning behind the messages.

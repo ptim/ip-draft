@@ -1,4 +1,6 @@
 import React from 'react'
+import dedent from 'dedent'
+import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -7,6 +9,16 @@ import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 const Publications = () => (
   <DefaultTemplateWrapper>
     <div className="Publications">
+      <Helmet
+        title="Publications - The Interplay Project"
+        meta={[
+          { name: 'description',
+            content: dedent`
+              The Interplay Wellbeing Framework is built upon strong foundations in science.
+            `,
+          },
+        ]}
+      />
 
       <div className="slab">
         <div className="container">

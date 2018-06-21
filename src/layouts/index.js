@@ -14,8 +14,8 @@ const TemplateWrapper = ({ children }) => (
     <Helmet
       title="Interplay Project"
       meta={[
-        { name: 'description', content: 'TODO' },
-        { name: 'keywords', content: 'TODO' },
+        { name: 'description', content: 'Reach your goals by mapping the connections to wellbeing. Interplay maps are holistic, scientific and collaborative.' },
+        { name: 'keywords', content: 'Wellbeing, Indigenous, Holistic, Survey, Map, Mapping, Aboriginal' },
       ]}
     />
     {children()}
