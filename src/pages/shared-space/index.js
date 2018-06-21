@@ -8,6 +8,7 @@ import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 import banatjarlImg from './banatjarl.jpg'
 import acrInterplayImg from './ACR-interplay-2014-03-11.jpg'
 import interplayGrowLoopImg from './interplay-grow-loop.png'
+import sharedSpaceDiagramImg from './shared-space-large.png'
 
 const SharedSpace = () => (
   <DefaultTemplateWrapper>
@@ -44,7 +45,9 @@ const SharedSpace = () => (
 
           <p>We bring community into the design through our 'shared space' way of working together.  </p>
 
-          <p>Programs are designed and evaluated based on shared measures of success</p>
+          <p>Programs are designed and evaluated based on shared measures of success.</p>
+
+          <img src={sharedSpaceDiagramImg} alt="Interplay Shared Space diagram" />
 
           <p>Our approach is described in detail in this publication titled, <a href="https://equityhealthj.biomedcentral.com/articles/10.1186/s12939-017-0563-5"><em>Interplay wellbeing framework: a collaborative methodology 'bringing together stories and numbers' to quantify Aboriginal cultural values in remote Australia</em></a> published in the International Journal for Equity in Health.</p>
 
