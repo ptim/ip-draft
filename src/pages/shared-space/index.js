@@ -6,6 +6,7 @@ import Link from 'gatsby-link'
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 
 import banatjarlImg from './banatjarl.jpg'
+import acrInterplayImg from './ACR-interplay-2014-03-11.jpg'
 import interplayGrowLoopImg from './interplay-grow-loop.png'
 
 const SharedSpace = () => (
@@ -37,7 +38,7 @@ const SharedSpace = () => (
 
           <blockquote>Two way learning  - Respect - Collaboration - Grass-roots - Passion - Fun - Impact</blockquote>
 
-          <img src={banatjarlImg} alt="Laughs at Banatjarl" />
+          <img src={banatjarlImg} alt="Image of jokes with the Banatjarl strong womens group" />
 
           <h2>Our 'Shared Space' Way of Working Together</h2>
 
@@ -79,6 +80,8 @@ const SharedSpace = () => (
           <p>We work with your community groups and key partners to co-design tailored Interplay maps, methodologies and data collection tools to best meet your needs. </p>
 
           <p>Your Interplay map will monitor progress in relation to a theory of change designed for your initiative.</p>
+
+          <img src={acrInterplayImg} alt="Group photo of Aboriginal Community Researchers from Yolngu and Martu coutries" />
 
 
           <h2 className="underline">Bringing Together Stories and Numbers</h2>
