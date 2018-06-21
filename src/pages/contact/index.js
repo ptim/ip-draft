@@ -31,7 +31,7 @@ const Contact = () => (
         <div className="container">
           <Button to="/client-needs-survey" style="green">Find out how interplay can map to suit your needs</Button>
 
-          <p>Alternatively, contact Sheree on <tel>+61 438 121 473</tel>.</p>
+          <p>Alternatively, contact Sheree on <a href="tel:+61438121473">+61 438 121 473</a>.</p>
 
           <ul>
             <li>email (req)</li>
