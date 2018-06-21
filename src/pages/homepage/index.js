@@ -18,19 +18,14 @@ import imgLiteracy from '../case-studies/case-study-literacy.png'
 import pdfLiteracy from '../case-studies/InterplayPoster3_Literacy_19Oct2016.pdf'
 
 // logos
-import absLogo from './logos/abs.png'
-import cagesLogo from './logos/cages.png'
 import centralDesertLandAndCommunityLogo from './logos/central-desert-land-and-community.png'
 import childrensGroundLogo from './logos/childrens-ground.png'
 import dawnAboriginalConsultancyLogo from './logos/dawn-aboriginal-consultancy.png'
-import deptOfPrimeMinisterLogo from './logos/dept-of-prime-minister.png'
-import dhimurruAboriginalCorporationLogo from './logos/dhimurru-aboriginal-corporation.png'
 import flindersUniLogo from './logos/flinders-uni.png'
 import goodShepherdMocrofinanceLogo from './logos/good-shepherd-mocrofinance.png'
 import hitnetLogo from './logos/hitnet.png'
 import nagalaProjectLogo from './logos/nagala-project.png'
 import nintiOneLogo from './logos/ninti-one.png'
-import northernTerritoryGovLogo from './logos/northern-territory-gov.png'
 import salvationArmyLogo from './logos/salvation-army.png'
 import westernAusGovLogo from './logos/western-aus-gov.png'
 import wunanLogo from './logos/wunan.png'
@@ -228,23 +223,18 @@ const Homepage = () => (
             <h2 className="underline">Who we work with</h2>
 
             <div className={styles.logoContainer}>
-              <Logo src={absLogo} />
-              <Logo src={cagesLogo} />
-              <Logo src={centralDesertLandAndCommunityLogo} />
+              <Logo src={nintiOneLogo} />
+              <Logo src={flindersUniLogo} />
+              <Logo src={yaluMarngithinyarawLogo} />
               <Logo src={childrensGroundLogo} />
               <Logo src={dawnAboriginalConsultancyLogo} />
-              <Logo src={deptOfPrimeMinisterLogo} />
-              <Logo src={dhimurruAboriginalCorporationLogo} />
-              <Logo src={flindersUniLogo} />
+              <Logo src={wunanLogo} />
               <Logo src={goodShepherdMocrofinanceLogo} />
               <Logo src={hitnetLogo} />
+              <Logo src={centralDesertLandAndCommunityLogo} />
               <Logo src={nagalaProjectLogo} />
-              <Logo src={nintiOneLogo} />
-              <Logo src={northernTerritoryGovLogo} />
               <Logo src={salvationArmyLogo} />
               <Logo src={westernAusGovLogo} />
-              <Logo src={wunanLogo} />
-              <Logo src={yaluMarngithinyarawLogo} />
             </div>
           </div>
         </div>
