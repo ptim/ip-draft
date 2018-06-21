@@ -11,6 +11,14 @@ import styles from './Homepage.module.scss'
 // header BG
 import bg from './ip-bg.jpg'
 
+// what we do images
+import communityConsultationImg from './what-we-do/community-consultation.png'
+import holisticWellbeingImg from './what-we-do/holistic-wellbeing.png'
+import impactAssessmentImg from './what-we-do/impact-assessment.png'
+import pathwaysForChangeImg from './what-we-do/pathways-for-change.png'
+import sharedSpaceImg from './what-we-do/shared-space.png'
+import sustainableImpactImg from './what-we-do/sustainable-impact.png'
+
 // case studies
 import imgLiteracy from '../case-studies/case-study-literacy.png'
 import pdfLiteracy from '../case-studies/InterplayPoster3_Literacy_19Oct2016.pdf'
@@ -56,47 +64,53 @@ const Homepage = () => (
           <div className="container">
             <h2 className="underline">What We Do</h2>
 
-            <div className="cols cols--padded">
+            <div className={`cols cols--padded ${styles.whatWeDoItems}`}>
               <div className="col--33">
-                <h3>Community Consultation</h3>
-
-                <p>Bring the voice of the community into the equation</p>
-                {/*(SHARED SPACE)*/}
+                <a href="/shared-space/">
+                  <h3>Community Consultation</h3>
+                  <p>Bring the voice of the community into the equation</p>
+                  <img src={communityConsultationImg} alt="Seated in a circle graphic" />
+                </a>
               </div>
 
               <div className="col--33">
-                <h3>Co-Design</h3>
-
-                <p>Design for impact through genuine 'shared space' collaboration</p>
-                {/*(SHARED SPACE)*/}
+                <a href="/shared-space/">
+                  <h3>Co-Design</h3>
+                  <p>Design for impact through genuine 'shared space' collaboration</p>
+                  <img src={sharedSpaceImg} alt="Stories, Numbers, Impact diagram" />
+                </a>
               </div>
 
               <div className="col--33">
-                <h3>Wellbeing Mapping</h3>
-
-                <p>Understand the holistic system of wellbeing</p>
-                {/*(MODELS PAGE)*/}
+                <a href="/mapping/">
+                  <h3>Holistic Wellbeing</h3>
+                  <p>Understand the holistic system of wellbeing</p>
+                  <img src={holisticWellbeingImg} alt="Interplay visualisation diagram" />
+                </a>
               </div>
 
               <div className="col--33">
-                <h3>Services Mapping</h3>
-
-                <p>Maximise impact by working together efficiently</p>
-                {/*(MODELS PAGE)*/}
+                <a href="/mapping/">
+                  <h3>Impact Assessment</h3>
+                  <p>Know that you are making a difference</p>
+                  <img src={impactAssessmentImg} alt="Interplay visualisation diagram" />
+                </a>
               </div>
 
               <div className="col--33">
-                <h3>Impact Assessment</h3>
-
-                <p>Know that you are making a difference</p>
-                {/*(MODELS PAGE)*/}
+                <a href="/mapping/">
+                  <h3>Pathways for Change</h3>
+                  <p>Invest where it counts to create change</p>
+                  <img src={pathwaysForChangeImg} alt="Interplay visualisation diagram" />
+                </a>
               </div>
 
               <div className="col--33">
-                <h3>Pathways for Change</h3>
-
-                <p>Invest where it counts to create change</p>
-                {/*(MODELS PAGE)*/}
+                <a href="/mapping/">
+                  <h3>Sustainable Impact</h3>
+                  <p>Knowledge and practice to create long-term change</p>
+                  <img src={sustainableImpactImg} alt="Map of Australia with Interplay diagrams throughout" />
+                </a>
               </div>
             </div>
 
@@ -111,7 +125,7 @@ const Homepage = () => (
 
               <ul>
                 <li>We work together in a '<a href="/shared-space/">shared space</a>' where each of the key groups collaborate in every part of the project at every level</li>
-                <li>We take a holistic or '<a href="/models/">whole of system</a>' approach to understand how all the parts are interconnected or 'interplay'</li>
+                <li>We take a holistic or '<a href="/mapping/">whole of system</a>' approach to understand how all the parts are interconnected or 'interplay'</li>
                 <li>We bring together <a href="/shared-space/">stories and numbers</a> to represent community values and priorities in a scientific framework</li>
                 <li>Our approach is both strength-based and <a href="/science/">evidence based</a> to build sustainable impact</li>
               </ul>

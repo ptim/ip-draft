@@ -1,3 +1,4 @@
+@import "~../../layouts/variables.scss";
 
 .hero {
     position: relative;
@@ -38,6 +39,16 @@
         max-width: 500px;
     }
 }
+
+
+.whatWeDoItems a {
+    color: $charcoal;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 
 .logoContainer {
     margin-left: auto;
