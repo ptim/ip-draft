@@ -26,7 +26,7 @@ const Footer = () => (
           <ul>
             <li><Link to='/case-studies'>Case Studies</Link></li>
             <li><Link to='/science'>Science</Link></li>
-            <li><Link to='/pulications'>Pulications</Link></li>
+            <li><Link to='/publications'>Publications</Link></li>
             <li><Link to='/interplay-v1'>Interplay v1</Link></li>
             <li><Link to='/videos'>Videos</Link></li>
           </ul>
