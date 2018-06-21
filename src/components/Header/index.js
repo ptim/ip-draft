@@ -8,11 +8,11 @@ import './interplay-logo.png'
 
 const Header = () => (
   <nav className="Header">
-    <h1>
+    <span>
       <Link to="/">
         <span>The Interplay Project</span>
       </Link>
-    </h1>
+    </span>
 
     {/*
     <nav>

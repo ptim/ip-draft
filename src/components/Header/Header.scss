@@ -22,7 +22,7 @@
     }
 }
 
-.Header h1 {
+.Header > span {
     position: relative;
 
     width: 320px;
@@ -32,20 +32,20 @@
 }
 
 @media screen and (min-width: 700px) {
-    .Header h1 {
+    .Header > span {
         top: 5px;
         padding-left: 72px;
     }
 }
 
 
-.Header h1 span {
+.Header > span span {
     text-indent: -999rem;
     opacity: 0;
     font-size: 0.01rem;
 }
 
-.Header h1 a {
+.Header > span a {
     display: inline-block;
     width: 170px;
     height: 49px;
@@ -55,13 +55,13 @@
 }
 
 @media screen and (min-width: 700px) {
-    .Header h1 a {
+    .Header > span a {
         width: 240px;
         height: 69px;
     }
 }
 
-.Header h1 a:before {
+.Header > span a:before {
     position: absolute;
     top: -5px;
     left: -20px;
@@ -76,7 +76,7 @@
 }
 
 @media screen and (min-width: 700px) {
-    .Header h1 a:before {
+    .Header > span a:before {
         width: 101px;
         height: 71px;
         /*background-position: -5px 0;*/
