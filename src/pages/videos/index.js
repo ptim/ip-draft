@@ -37,10 +37,27 @@ const Videos = () => (
         <div className="container">
           <p>Over 30 short documentary videos from the Interplay Project are embedded in the Interplay Wellbeing Framework, also available at the <a href="https://www.youtube.com/playlist?list=PLhGbPrpUa5d0FifxUiIiOZ55QRMCLXiXg">Interplay Youtube Channel</a>.</p>
 
-          <p>These are freely available for use in any education or other applications that promotes the wellbeing meaning behind the messages.
-            <b><br />TODO: should add a license to these.</b></p>
+          <p>
+            These are available for use in any education or other applications that promotes the wellbeing meaning behind the messages.{' '}
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+              The videos are licensed under a {' '}
+              Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License
+            </a>.
+          </p>
+
+          <p>
+            <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">
+              <img
+                alt="Creative Commons License"
+                style={{borderWidth: 0}}
+                src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png"
+              />
+            </a>
+          </p>
 
           <p>Please feel free to <a href="/contact">give us feedback</a> on how you are using these resources.</p>
+
+          <p>For presentations, see <a href="/science/">Science</a>.</p>
 
           <div className="cols cols--padded">
             <Video id="szWl6WW4ctc">
