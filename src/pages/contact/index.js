@@ -30,19 +30,13 @@ const Contact = () => (
       <div className="slab">
         <div className="container">
           <Button to="/client-needs-survey" style="green">Find out how interplay can map to suit your needs</Button>
-
-          <p>Alternatively, contact Sheree on <a href="tel:+61438121473">+61 438 121 473</a>.</p>
+          <br />
+          <br />
+          <p>Contact Sheree at:</p>
 
           <ul>
-            <li>email (req)</li>
-            <li>phone</li>
-            <li>gov, phil, comm?</li>
-            <ul>
-              <li>design an evaluation</li>
-              <li>want to know more</li>
-              <li>contact you</li>
-            </ul>
-            <li>message</li>
+            <li><a href="mailto:sheree@interplayproject.com">sheree@interplayproject.com</a></li>
+            <li><a href="tel:+61438121473">+61 438 121 473</a>.</li>
           </ul>
         </div>
       </div>
