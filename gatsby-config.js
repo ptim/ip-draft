@@ -16,6 +16,15 @@ module.exports = {
     },
     'gatsby-transformer-remark',
 
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: 'GTM-N4Z8CVF',
+        // a lookup table is configured to track by environment
+        includeInDevelopment: true,
+      },
+    },
+
     // gatsby-plugin-netlify must be the last plugin
     {
       // > enable HTTP/2 server push of critical Gatsby assets through the Link headers.
@@ -32,4 +41,4 @@ module.exports = {
       },
     },
   ],
-};
+}
