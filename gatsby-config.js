@@ -7,6 +7,19 @@ module.exports = {
     'gatsby-plugin-sass',
 
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: {
+        name: 'Interplay Project',
+        short_name: 'Interplay',
+        start_url: '/',
+        background_color: '#008fb4',
+        theme_color: '#008fb4',
+        display: 'minimal-ui',
+        icon: 'src/assets/icon-512.png', // This path is relative to the root of the site.
+      },
+    },
+
+    {
       resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         id: 'GTM-N4Z8CVF',
