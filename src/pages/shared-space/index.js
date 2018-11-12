@@ -1,7 +1,6 @@
 import React from 'react'
 import dedent from 'dedent'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 
@@ -39,7 +38,7 @@ const SharedSpace = () => (
 
           <blockquote>Two way learning  - Respect - Collaboration - Grass-roots - Passion - Fun - Impact</blockquote>
 
-          <img src={banatjarlImg} alt="Image of jokes with the Banatjarl strong womens group" />
+          <img src={banatjarlImg} alt="Jokes with the Banatjarl strong womens group" />
 
           <h2>Our 'Shared Space' Way of Working Together</h2>
 
@@ -84,7 +83,7 @@ const SharedSpace = () => (
 
           <p>Your Interplay map will monitor progress in relation to a theory of change designed for your initiative.</p>
 
-          <img src={acrInterplayImg} alt="Group photo of Aboriginal Community Researchers from Yolngu and Martu coutries" />
+          <img src={acrInterplayImg} alt="Aboriginal Community Researchers from Yolngu and Martu coutries" />
 
 
           <h2 className="underline">Bringing Together Stories and Numbers</h2>

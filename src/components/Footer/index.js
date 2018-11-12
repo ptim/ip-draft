@@ -1,8 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import FaFacebook from 'react-icons/lib/fa/facebook-square';
+import {FaFacebook} from 'react-icons/fa';
 
-import MailchimpSignup from './MailchimpSignup'
 import styles from './Footer.module.scss'
 
 
@@ -35,7 +34,7 @@ const Footer = () => (
               <li><Link to='/about'>About Us</Link></li>
               <li><Link to='/team'>Team</Link></li>
               <li>
-                <a href="https://www.facebook.com/shereecairney/" title="Interplay Facebook Page"><FaFacebook /></a>
+                <a href="https://www.facebook.com/shereecairney/" title="Interplay Facebook Page" target="_blank" rel="noopener noreferrer"><FaFacebook /></a>
               </li>
             </ul>
           </div>

@@ -3,27 +3,32 @@ module.exports = {
     title: 'Interplay Project',
   },
   plugins: [
-    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-netlify-cms',
+    'gatsby-plugin-sass',
 
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        path: `${__dirname}/blog/`,
-        name: 'markdown-pages',
+        name: 'Interplay Project',
+        short_name: 'Interplay',
+        start_url: '/',
+        background_color: '#008fb4',
+        theme_color: '#008fb4',
+        display: 'minimal-ui',
+        icon: 'src/assets/icon-512.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-transformer-remark',
 
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
+      resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         id: 'GTM-N4Z8CVF',
         // a lookup table is configured to track by environment
         includeInDevelopment: true,
       },
     },
+
+    'gatsby-plugin-offline',
 
     // gatsby-plugin-netlify must be the last plugin
     {

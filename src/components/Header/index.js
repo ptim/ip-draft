@@ -2,7 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 
 import './Header.scss'
-import styles from './navigation.module.scss'
+// import styles from './navigation.module.scss'
 import './interplay-logo.png'
 
 

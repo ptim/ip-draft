@@ -1,17 +1,16 @@
 import React from 'react'
 import dedent from 'dedent'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
-import FaPdf from 'react-icons/lib/fa/file-pdf-o';
+import {FaFilePdf} from 'react-icons/fa'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 import Button from '../../components/Button'
-import Figure from '../../components/Figure'
+// import Figure from '../../components/Figure'
 
 import styles from './Homepage.module.scss'
 
 // header BG
-import bg from './ip-bg.jpg'
+// import bg from './ip-bg.jpg'
 
 // what we do images
 import communityConsultationImg from './what-we-do/community-consultation.png'
@@ -128,7 +127,7 @@ const Homepage = () => (
               </div>
             </div>
 
-            <Button to="/client-needs-survey" style="blue">Find out how interplay can map to suit your needs</Button>
+            <Button to="/client-needs-survey" className="blue">Find out how interplay can map to suit your needs</Button>
           </div>
         </div>
 
@@ -164,7 +163,7 @@ const Homepage = () => (
                   </ul>
 
                   <p>
-                    <a href={pdfLiteracy}><FaPdf /> Download the Case Study</a> and <a href="/case-studies">read more case studies</a>.
+                    <a href={pdfLiteracy}><FaFilePdf /> Download the Case Study</a> and <a href="/case-studies">read more case studies</a>.
                   </p>
                 </div>
 
@@ -188,7 +187,7 @@ const Homepage = () => (
               </div>
 
               <div className="col--33">
-                <iframe width="320" height="180" src={`https://www.youtube-nocookie.com/embed/Cf-dK8HFP2c?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                <iframe title="Backstory" width="320" height="180" src={`https://www.youtube-nocookie.com/embed/Cf-dK8HFP2c?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
               </div>
             </div>
 
@@ -203,7 +202,7 @@ const Homepage = () => (
               <div className="col--33">
                 <h3>Culture</h3>
 
-                <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/Rso0RqiX_-U?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                <iframe title="Culture" width="320" height="180" src="https://www.youtube-nocookie.com/embed/Rso0RqiX_-U?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
                 <p>This short documentary reveals the complexity of Aboriginal culture in remote Australia. It also suggests that connecting with culture - through being on country, speaking in language, and practising culture in the everyday - improves the wellbeing of Aboriginal people living in remote Australia.</p>
               </div>
@@ -211,7 +210,7 @@ const Homepage = () => (
               <div className="col--33">
                 <h3>Education and Learning</h3>
 
-                <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/eY64yYhlSLw?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                <iframe title="Education and Learning" width="320" height="180" src="https://www.youtube-nocookie.com/embed/eY64yYhlSLw?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
                 <p>This video presents a range of perspectives on what can improve education outcomes for Aboriginal children living in remote Australia.</p>
               </div>
@@ -219,7 +218,7 @@ const Homepage = () => (
               <div className="col--33">
                 <h3>Work</h3>
 
-                <iframe width="320" height="180" src="https://www.youtube-nocookie.com/embed/79WB1ew-SXU?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+                <iframe title="Work" width="320" height="180" src="https://www.youtube-nocookie.com/embed/79WB1ew-SXU?rel=0&amp;controls=0" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
 
                 <p>What does meaningful work in remote Australia look like? Watch the responses here.</p>
 

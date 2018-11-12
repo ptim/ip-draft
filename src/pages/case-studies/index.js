@@ -1,8 +1,7 @@
 import React from 'react'
 import dedent from 'dedent'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
-import FaPdf from 'react-icons/lib/fa/file-pdf-o';
+import {FaFilePdf} from 'react-icons/fa';
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 
@@ -11,7 +10,7 @@ import styles from './CaseStudies.module.scss'
 // I've ordered these by the number in the the pdf title:
 import pdfCulture from './InterplayPoster2_Culture_19Oct2016.pdf'
 import pdfLiteracy from './InterplayPoster3_Literacy_19Oct2016.pdf'
-import pdfEmployment from './InterplayPoster4_Empowerment_19Oct2016.pdf'
+// import pdfEmployment from './InterplayPoster4_Empowerment_19Oct2016.pdf'
 import pdfHealth from './InterplayPoster5_HolisticHealth_19Oct2016.pdf'
 // import pdfNumeracy from './TODO.pdf'
 
@@ -60,7 +59,7 @@ const CaseStudies = () => (
                 </ul>
 
                 <p>
-                  <a href={pdfLiteracy}><FaPdf /> Download the Case Study</a> and read the paper in{' '}
+                  <a href={pdfLiteracy}><FaFilePdf /> Download the Case Study</a> and read the paper in{' '}
                   <i>Educational Research for Policy and Practice</i>: {' '}
                   <a href="https://link.springer.com/article/10.1007%2Fs10671-017-9217-z">
                     The role of Aboriginal literacy in improving English literacy in remote Aboriginal communities: an empirical systems analysis with the Interplay Wellbeing Framework
@@ -86,7 +85,7 @@ const CaseStudies = () => (
                   <li>Practising culture is the key to improving wellbeing for Aboriginal people in remote Australia</li>
                 </ul>
 
-                <p><a href={pdfCulture}><FaPdf /> Download the Case Study</a>.</p>
+                <p><a href={pdfCulture}><FaFilePdf /> Download the Case Study</a>.</p>
               </div>
 
               <div className="col--33">
@@ -106,7 +105,7 @@ const CaseStudies = () => (
                   <li>Integrating services for physical and mental health problems improves wellbeing</li>
                   <li>Holistic approach to health services needed</li>
                 </ul>
-                <p><a href={pdfHealth}><FaPdf /> Download the Case Study</a>.</p>
+                <p><a href={pdfHealth}><FaFilePdf /> Download the Case Study</a>.</p>
               </div>
 
               <div className="col--33">
@@ -129,7 +128,7 @@ const CaseStudies = () => (
                 </ul>
 
                 <p>
-                  <a href={pdfHealth}><FaPdf /> Download the Case Study</a> and read the paper in the{' '}
+                  <a href={pdfHealth}><FaFilePdf /> Download the Case Study</a> and read the paper in the{' '}
                   <i>The Australian Journal of Indigenous Education</i>:{' '}
                   <a href="https://www.cambridge.org/core/journals/australian-journal-of-indigenous-education/article/empowerment-is-the-basis-for-improving-education-and-employment-outcomes-for-aboriginal-people-in-remote-australia/D026A003D0E158151507040B941A1B7C/core-reader">
                     Empowerment is the Basis for Improving Education and Employment Outcomes for Aboriginal People in Remote Australia
@@ -157,7 +156,7 @@ const CaseStudies = () => (
                   <li>Empowerment is a key foundation upon which pathways to wellbeing are built.</li>
                 </ul>
 
-                {/* <a href={pdfNumeracy}><FaPdf /></a> */}
+                {/* <a href={pdfNumeracy}><FaFilePdf /></a> */}
               </div>
 
               <div className="col--33">
