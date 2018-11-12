@@ -2,7 +2,6 @@ import React from 'react'
 import dedent from 'dedent'
 import Helmet from 'react-helmet'
 import Button from '../../components/Button'
-import Link from 'gatsby-link'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 

@@ -1,17 +1,16 @@
 import React from 'react'
 import dedent from 'dedent'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
 import {FaFilePdf} from 'react-icons/fa'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 import Button from '../../components/Button'
-import Figure from '../../components/Figure'
+// import Figure from '../../components/Figure'
 
 import styles from './Homepage.module.scss'
 
 // header BG
-import bg from './ip-bg.jpg'
+// import bg from './ip-bg.jpg'
 
 // what we do images
 import communityConsultationImg from './what-we-do/community-consultation.png'

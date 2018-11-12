@@ -1,7 +1,6 @@
 import React from 'react'
 import dedent from 'dedent'
 import Helmet from 'react-helmet'
-import Link from 'gatsby-link'
 import {FaFilePdf} from 'react-icons/fa';
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
@@ -11,7 +10,7 @@ import styles from './CaseStudies.module.scss'
 // I've ordered these by the number in the the pdf title:
 import pdfCulture from './InterplayPoster2_Culture_19Oct2016.pdf'
 import pdfLiteracy from './InterplayPoster3_Literacy_19Oct2016.pdf'
-import pdfEmployment from './InterplayPoster4_Empowerment_19Oct2016.pdf'
+// import pdfEmployment from './InterplayPoster4_Empowerment_19Oct2016.pdf'
 import pdfHealth from './InterplayPoster5_HolisticHealth_19Oct2016.pdf'
 // import pdfNumeracy from './TODO.pdf'
 

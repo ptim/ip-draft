@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import {FaFacebook} from 'react-icons/fa';
 
-import MailchimpSignup from './MailchimpSignup'
 import styles from './Footer.module.scss'
 
 
