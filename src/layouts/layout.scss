@@ -1,4 +1,4 @@
-@import "~./variables.scss";
+@import '~./variables.scss';
 
 #___gatsby {
     display: flex;
@@ -32,7 +32,6 @@
     flex: 1;
 }
 
-
 // ============================================================
 // tags
 // ============================================================
@@ -53,16 +52,13 @@ a:hover {
     text-decoration: underline;
 }
 
-
 // ============================================================
 // slabs
 // ============================================================
 
-
 .slab {
     padding: 2rem 0;
-    background:
-        url(./curvy-slab-top.png) repeat-x center top,
+    background: url(./curvy-slab-top.png) repeat-x center top,
         url(./curvy-slab-bottom.png) repeat-x center bottom;
 }
 
@@ -70,9 +66,18 @@ a:hover {
     // background-color: $green--light;
 }
 
-.slab--orange {background-color: $orange; color: $white;}
-.slab--blue {background-color: $blue; color: $white;}
-.slab--green {background-color: $green; color: $white;}
+.slab--orange {
+    background-color: $orange;
+    color: $white;
+}
+.slab--blue {
+    background-color: $blue;
+    color: $white;
+}
+.slab--green {
+    background-color: $green;
+    color: $white;
+}
 
 .container {
     max-width: calc(1024px - 2rem);
@@ -80,35 +85,57 @@ a:hover {
     padding: 0 1rem;
 }
 
-
 // ============================================================
 // columns
 // ============================================================
 
-.cols {display: flex; flex-wrap: wrap;}
-.col--25 {width: 25%;}
-.col--33 {width: 33.33%;}
-.col--50 {width: 50%;}
-.col--66 {width: 66.66%;}
-.col--75 {width: 75%;}
-.col--100 {width: 100%;}
+.cols {
+    display: flex;
+    flex-wrap: wrap;
+}
+.col--25 {
+    width: 25%;
+}
+.col--33 {
+    width: 33.33%;
+}
+.col--50 {
+    width: 50%;
+}
+.col--66 {
+    width: 66.66%;
+}
+.col--75 {
+    width: 75%;
+}
+.col--100 {
+    width: 100%;
+}
 
 @media screen and (max-width: 768px) {
-    .cols {flex-wrap: wrap;}
-    .cols > div { width: 100%; }
-    .cols > .col--50--narrow {width: 50%;}
+    .cols {
+        flex-wrap: wrap;
+    }
+    .cols > div {
+        width: 100%;
+    }
+    .cols > .col--50--narrow {
+        width: 50%;
+    }
 }
 @media screen and (max-width: 568px) {
-    .cols > .col--50--narrow {width: 100%;}
+    .cols > .col--50--narrow {
+        width: 100%;
+    }
 }
 
 .cols--padded {
-    margin-left: -.5rem;
-    margin-right: -.5rem;
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
 }
 .cols--padded > div {
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .centered {
