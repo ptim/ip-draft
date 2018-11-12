@@ -2,7 +2,7 @@ import React from 'react'
 import dedent from 'dedent'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
-import FaPdf from 'react-icons/lib/fa/file-pdf-o';
+import {FaFilePdf} from 'react-icons/fa'
 
 import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 import Button from '../../components/Button'
@@ -164,7 +164,7 @@ const Homepage = () => (
                   </ul>
 
                   <p>
-                    <a href={pdfLiteracy}><FaPdf /> Download the Case Study</a> and <a href="/case-studies">read more case studies</a>.
+                    <a href={pdfLiteracy}><FaFilePdf /> Download the Case Study</a> and <a href="/case-studies">read more case studies</a>.
                   </p>
                 </div>
 
