@@ -128,7 +128,7 @@ const Homepage = () => (
               </div>
             </div>
 
-            <Button to="/client-needs-survey" style="blue">Find out how interplay can map to suit your needs</Button>
+            <Button to="/client-needs-survey" className="blue">Find out how interplay can map to suit your needs</Button>
           </div>
         </div>
 

@@ -29,7 +29,7 @@ const Contact = () => (
 
       <div className="slab">
         <div className="container">
-          <Button to="/client-needs-survey" style="green">Find out how interplay can map to suit your needs</Button>
+          <Button to="/client-needs-survey" className="green">Find out how interplay can map to suit your needs</Button>
           <br />
           <br />
           <p>Contact Sheree at:</p>
