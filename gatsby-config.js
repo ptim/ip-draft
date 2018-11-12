@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Interplay Project',
+    siteUrl: 'https://interplayproject.com',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -28,6 +29,7 @@ module.exports = {
       },
     },
 
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
 
     // gatsby-plugin-netlify must be the last plugin
