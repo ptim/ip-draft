@@ -3,17 +3,19 @@ module.exports = {
     title: 'Interplay Project',
   },
   plugins: [
-    'gatsby-plugin-sass',
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sass',
 
     {
-      resolve: `gatsby-plugin-google-tagmanager`,
+      resolve: 'gatsby-plugin-google-tagmanager',
       options: {
         id: 'GTM-N4Z8CVF',
         // a lookup table is configured to track by environment
         includeInDevelopment: true,
       },
     },
+
+    'gatsby-plugin-offline',
 
     // gatsby-plugin-netlify must be the last plugin
     {
