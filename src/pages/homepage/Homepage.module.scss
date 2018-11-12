@@ -2,11 +2,44 @@
 
 .hero {
     position: relative;
+    min-height: 300px;
     padding: 1rem 0;
-    background: linear-gradient(45deg, rgba(0,0,0,0.5) 10%, rgba(0,0,0,0)), url(./ip-bg.jpg) no-repeat;
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.4) 10%, rgba(0, 0, 0, 0)),
+        url(./ip-bg-mobile.jpg) no-repeat;
+    background-position-x: 80%;
+    background-position-y: top;
     background-size: cover;
     color: white;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
+
+    @media screen and (min-width: 768px) {
+        padding-top: 7rem;
+        padding-bottom: 1rem;
+        background: linear-gradient(
+                45deg,
+                rgba(0, 0, 0, 0.6) 10%,
+                rgba(0, 0, 0, 0)
+            ),
+            url(./ip-bg-tablet.jpg) no-repeat;
+        background-attachment: fixed;
+        background-position-x: 40%;
+        background-position-y: 87px;
+        text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.9);
+    }
+
+    @media screen and (min-width: 1439px) {
+        padding-top: 12rem;
+        padding-bottom: 2rem;
+        background: linear-gradient(
+                45deg,
+                rgba(0, 0, 0, 0.5) 10%,
+                rgba(0, 0, 0, 0)
+            ),
+            url(./ip-bg.jpg) no-repeat;
+        background-attachment: fixed;
+        background-position-x: 60%;
+        background-position-y: 87px;
+    }
 
     &:before {
         content: '';
@@ -25,23 +58,14 @@
 }
 
 .hero__content {
-    max-width: 340px;
+    max-width: 80%;
     margin-left: 0;
-}
 
-@media screen and (min-width: 700px) {
-    .hero {
-        padding-top: 12rem;
-        padding-bottom: 2rem;
+    @media screen and (min-width: 768px) {
+        max-width: 90%;
     }
-}
-
-@media screen and (min-width: 960px) {
-    .hero {
-        background-attachment: fixed;
-    }
-    .hero__content {
-        max-width: 500px;
+    @media screen and (min-width: 960px) {
+        max-width: 750px;
     }
 }
 
