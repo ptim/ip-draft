@@ -7,7 +7,7 @@ import DefaultTemplateWrapper from '../../layouts/DefaultTemplateWrapper'
 
 const Video = ({id, children}) => (
   <div className="Video col--33">
-    <iframe width="320" height="180" src={`https://www.youtube-nocookie.com/embed/${id}?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+    <iframe title={`Interplay Project: ${id}`} width="320" height="180" src={`https://www.youtube-nocookie.com/embed/${id}?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
     <p>{children}</p>
   </div>
 )

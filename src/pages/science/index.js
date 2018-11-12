@@ -63,7 +63,7 @@ const Science = () => (
           <div className="cols cols--padded">
             <div className="col--33">
               <h3>Interplay at TEDx St Kilda</h3>
-              <iframe width="320" height="180" src={`https://www.youtube-nocookie.com/embed/Cf-dK8HFP2c?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+              <iframe title="Interplay at TEDx St Kilda" width="320" height="180" src={`https://www.youtube-nocookie.com/embed/Cf-dK8HFP2c?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
               <p>
                 What Aboriginal Knowledge can Teach us about Happiness. Sheree presents the Interplay project at <a href="https://youtu.be/Cf-dK8HFP2c">TEDx St Kilda 2016</a>
               </p>
@@ -71,7 +71,7 @@ const Science = () => (
 
             <div className="col--33">
               <h3>Interplay at Impact7, 2017</h3>
-              <iframe width="320" height="180" src={`https://www.youtube-nocookie.com/embed/944-fVw6tfg?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+              <iframe title="Interplay at Impact7, 2017" width="320" height="180" src={`https://www.youtube-nocookie.com/embed/944-fVw6tfg?rel=0&amp;controls=0`} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
               <p>
                 Interplay is presented at Impact7, 2017
               </p>
